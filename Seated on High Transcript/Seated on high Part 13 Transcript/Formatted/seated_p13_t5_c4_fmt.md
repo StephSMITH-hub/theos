@@ -1,0 +1,146 @@
+## The Fall of Satan and the Host of Heaven
+
+For as the lightning that lights out of one part under heaven is the same word, is the word *astrophe* ("a s t r A P e") which talks about a celestial body. *Now, autism phrases, huh? Yeah, basic Old Testament phrases.* 
+
+> **Luke 10:18**
+> "I beheld Satan fall as lightning from heaven."
+
+The question now is, when did he fall as lightning from heaven? Jesus uses straight, clear Old Testament expressions of the host of heavens. *Put this down somewhere important,* that Jesus calls Satan here part of the host of heaven. 
+
+## Who Gave the Law?
+
+And this leads us to a question we asked. We said, "Who gave the law?" *Remember that question?* "Who gave the law?" If we say God, correct. Jesus, God, yeah. If we say Moses, correct. If we say with angels, we're correct. So we want to answer two critical questions in this session. Who gave the law? God did. Who gave the law? Moses. Correct. Back again to that. Luke 10 and verse 17:18. 
+
+> **Luke 10:17-18**
+> "I beheld Satan fall."
+
+And that word "I saw" is the word. The root *theoreo* ("t h e o r O o") is not a future tense. It's something that had happened. It's not referring to the cross. For falling out of heaven. Out of heaven. *Pipto* is used there. And that's where you step out. *Let me put it properly.* Where you step away from, where you miss your step. *Maybe that's one where you leave the real track, where you leave a racing track.* So let's say that, "I beheld Satan move from his original state to something else." Yeah. 
+
+So by using the word *astrophoto* is taken from the Greek of star *aster* ("a s t e r"), *aster* in Matthew 2:27. *Did I see that? Not 2:37, 2:17. I wanted to say. No, no. 2:7, verse 2 and verse 7,* the star. Star. Of course, that star. *Don't forget that star was not seen by Herod. Are you here? It's a supernatural thing. Wasn't seen by error. If Error saw it, he wouldn't have needed them at all.* 
+
+So the word *asta*, then verse 9 and then verse 10, a text we are going to look at shortly. Matthew 24:29. 
+
+> **Matthew 24:29**
+> "The sun will be darkening. The moon shall not dive. Light. The star shall fall. Fall from heaven."
+
+Notice that the star shall fall. "I beheld Satan as lightning. As a star falling. The stars shall fall from heaven." Mark 12. *Sorry, Mark 13 and verse 25,* 
+
+> **Mark 13:25**
+> "The stars of heaven shall fall. The powers that are in heaven shall be shaken."
+
+The powers, 1st Corinthians 15 and verse 41. 
+
+> **1st Corinthians 15:41**
+> "So the stars here are not from science. There's one glory of the sun, another glory of the moon, another glory of the stars. He says one star differs from another star in glory."
+
+*You think he's talking about the stars that we're looking at?* And Paul is using Old Testament language. Jude 13. 
+
+> **Jude 13**
+> "Raging waves of the sea forming out of their own shame, wandering stars."
+
+So when I said, "I beheld Satan falling," future event of past. So which means that the Satan is referring to here can be identified from the Old Testament events. So who gave the law again? We said angels. *I think we solved the angels part. I mean that supernatural beings of just grouped into angels, right? Have we done that? Huh? Hello? Have we done that already? So when I say angels, can I apply codified silence? Can I freely? Okay, so angels.*
+
+## Jesus is Greater Than the Prophets
+
+So now let's now look at one. *It's not a sleepy area, but we will need to follow through.* Hebrews 11. 
+
+> **Hebrews 1:1-2**
+> "God, who at sundry times and in diverse manner spoke in time past to the fathers by the prophets, as in the last days spoken in his Son."
+
+Obviously a comparison is used. And then he makes a distinction between Jesus and the prophets. *So pay attention here.* Between Jesus and the prophets, "Heir of all things, by whom also he made the walls. Who being the brightness of his glory and the expressed image." That word is *character* in the Greek, which is perfect imprint of his person, "upholding all things by the word of his power. When he had been teleported as he started right out of Israel, high being made much better." 
+
+So now by using *character*, is that a comparison? *Huh? Come on, is that a comparison?* Because when you say *character* and you say prophet is a spokesperson. *Character* is that person himself being imprinted on the scene you are speaking. For this one is speaking himself through another body. *Character*. So comparison is there. This is better. The word *kreitton* ("K R E I W T O N") which sometimes used for stronger. So the writer of Hebrews makes a comparison. 
+
+Let's track back at something Jesus also said. In John 6. And verse 32 it says, 
+
+> **John 6:32-33**
+> "For verily I said, Moses gave you not that bread, But my Father gives you the true bread. So the bread of God is he which comes down from heaven and gives life."
+
+So we have, look at Matthew 6:29. So which means that what Jesus gives is greater than what Moses gave, right? *Come on.* Okay, Matthew 6:29, 
+
+> **Matthew 6:29**
+> "That even Solomon in all his glory was not arrayed like one of these."
+
+Look at Matthew 12:42. 
+
+> **Matthew 12:42**
+> "The Queen of the south shall rise up in judgment with this generation and shall condemn it for she came from the uttermost part of the earth to hear the wisdom of Solomon. And behold a greater than Solomon here."
+
+This is comparison. The word *pleion* ("P L E I O N"). It means above, more excellent. "A greater than Solomon is here." Luke 11:31. 
+
+> **Luke 11:31**
+> "The same word greater than Solomon is here."
+
+So there is a comparison. Okay. Moses, Solomon. Matthew 11. John 1. This is John the Baptist. 
+
+> **John 1:8**
+> "He was not the light, John 1:8, but sent to bear witness of the light."
+
+John the Baptist. "John himself I baptize with water." John 1:26. "He that stands on among you, whom you knew not is."
+
+> **John 1:15, 27, 30**
+> "He which comes after me is preferred. Before me is preferred. Before me. Is preferred. John 1:15. Actually, John said, he that comes after me is preferred."
+
+The word *preferred* is a Greek word that means he existed before me. *Ginomai* to a being before me. Same one. John 1:27 and John 1:30 before me. 
+
+Matthew 11. "Are you the one to come?" This is John's critical question. "Or did we move for another?" Then Jesus answered. Then he says, "What you are?" Verse 9. 
+
+> **Matthew 11:9-11**
+> "What went ye out to see? A prophet. Yea, I say unto you more than a prophet. That's John. For this is he whom it is written. Behold, I send my messenger before thy face, which shall prepare thy way before thee. I say unto you, among them that are born of women, they had not risen a greater John the Baptist notwithstanding, he that is least in the kingdom of heaven is greater than he."
+
+So he says, "John is the messenger before me." So we have John.
+
+## The Imperfection of the Forebears
+
+The New Testament writers also talk about Elijah in Romans 11, Verse one. 
+
+> **Romans 11:1-4**
+> "I say, then, as God cast away his people, God forbid. For I also am an Israelite of the seed of Abraham, the tribe of Benjamin. Now look at verse 2. God had not cast away his people, which he foreknew, was he not? What? What he not what the Scripture said of Elijah, when he makes impossible intercession to God against Israel? Say, Lord, they have killed thy prophets and digged down thy altars, and left alone, and they seek my life. He put everybody together. What sayeth the answer of God? What say the answer of God? What said the answer of God to him? I have preserved, or I have reserved to myself 1/2 7,000."
+
+The word there. *Chrematismos*. A divine response. *Some have it as a caution.* "I have reserved for myself 7,000 men who have not bowed the knee to the Image of baal." 
+
+So can we say that the writer here was saying Elijah made an assumption? *Huh? Okay, so now it is therefore clear that the writers of the New Testament never equated Jesus with any of the forebears.* It was clear he is greater. *Now, why was that important?* Because Jesus is God who became a man and is a servant. The words used for him are the same words that *Bene Elohim, malak, Yahweh* is a servant's son, but he is greater, more excellent. 
+
+John 5. 32. 
+
+> **John 5:32-36**
+> "There's another that bears witness of me. And I know that the witness which he witness of me is true truth. You went to John and he bore witness of the truth, but received not testimony from man. But these things I say that you might be seeing. He was a burning and a shining light, and you were willing for a season to rejoice in his light. Look at 36. But I have greater witness than John."
+
+So if the vessels before Jesus are being compared, it therefore means that... *Pay attention here.* We should not expect perfection from them. *Is that clear now? Does that include what they wrote? Just think, we shouldn't expect perfection from them.*
+
+## The Rebellion of Moses
+
+Now let's go to a very clear one. Moses in Numbers 20. *This is why I said, when it comes to Bible study, there is no hurry. Don't rush. Okay.* Numbers 20. *You know this story?* Well, there was no water. In verse 2, 
+
+> **Numbers 20:2, 6, 8, 10-12**
+> "The guard themselves against Moses and against Aaron. And the people trod with Moses and spake, saying, would God that we had died when our brethren died before the Lord, and he brought us to die here. And Moses in verse 6. And Aaron went from prayer of assembly to the door of the tabernacle of congregation, and they fell upon their faces, and the glory of the Lord appeared to them. The Lord spake unto Moses, saying, take the rod and gather the assembly together. Thou and Aaron thy brother, and speak ye to the rock before their eyes shall give forth his water. And thou shalt bring forth to them water out of the rock, so that thou shalt give the congregation and their beasts drink. And Moses took the rock from before the Lord as he had commanded. And Moses and Aaron gathered the congregation together before the Lord, the rock, and said to them, here, now, you rebels, must we fetch you water out of this rock. Verse 17. He lifted up his hand, and with his rod he smote the rock twice. And the water came out abundantly. And the congregation drank and the abyss also. 12. And the Lord spake to Moses and Aaron, saying, because you believe me not to sanctify Me in the high dream of Israel. Therefore you shall not bring this congregation to the land which I have given them."
+
+This is the water of Meribah. Because the Lord, the children of Israel stroke with the Lord. And he was sanctified in them. So notice what was said about him. He said he rebelled. And that phrase was repeated. "He rebelled." Okay. Numbers 27 and verse 4. *Sorry. Yeah. Verse 14.* 
+
+> **Numbers 27:14**
+> "For you rebelled against my command in the desert of Zin. The strong covenant to sanctify me at the water before their eyes."
+
+Now who is the Lord talking to? *Pay attention.* The Lord said to Moses. "Get here this Mount Abarim. And see the land without the joy of Israel. And when you have seen it, thou shalt be gathered to the people. As Aaron thy brothers were gathered. For you rebelled against my commandments. The days of Zin. The shrine of congregation to sanctify me at the water before their eyes. That is the water of Mary by Kadesh. And the wilderness of Zin. You rebelled." Israeli one. And 37. Now this is Moses speaking. 
+
+> **Deuteronomy 1:37**
+> "The Lord was angry with me for your sakes, saying, thou shalt also thou shalt not go in either."
+
+Deuteronomy, chapter 3, verse 26. 
+
+> **Deuteronomy 3:26**
+> "The Lord was wroth with me for your sakes. And you will not hear me. The Lord said to me, let it suffice thee. Speak no more unto me of this matter."
+
+It was so great that it was obvious. He sought the Lord. And he said, "No, don't talk about it again." *Are you here?* Deuteronomy 4 and 21. 
+
+> **Deuteronomy 4:21**
+> "The Lord was angry with me for your sakes."
+
+He didn't touch at all. He said it consistently. *That's why a pastor must be careful, you know. He allowed their strife to enter his heart. Look at this.* "And I should not go over to Jordan. And I should not go into that good land which the Lord had given thee for inheritance. But I must die in this land. I must not go over Jordan." He said it again. Deuteronomy 32. 51. This is God speaking to him again. 
+
+> **Deuteronomy 32:51-52**
+> "Because you trespass against me among joy of Israel. At the waters of Neribah Kadesh, in the wilderness of Zin. Because you sanctify me not in the midst of children of Israel. Yet thou shalt see the land before thee. But thou shalt not go in the thy to the land which I have given children of Israel."
+
+So he rebelled. Moses rebelled. And he bore the judgment. It wasn't then the judgment of the people. It was the judgment of his own wrong. Okay, look at Psalm 103. 106. *Sorry. Verse 33.* I start from 31. 
+
+> **Psalm 106:31-33**
+> "I was counted unto him of righteousness. That is Phineas. Unto all the origins forevermore. They angered him also waters of stripes."

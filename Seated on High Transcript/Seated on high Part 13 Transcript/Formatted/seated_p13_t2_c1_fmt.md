@@ -1,0 +1,94 @@
+# Seated on High — Part 13: Track 2
+
+## The Context of Heaven and Earth
+
+> **Second Timothy 3:16**
+> All Scripture is given by inspiration of God. It's profitable for doctrine, for reproof, for correction, for instruction in righteousness.
+
+And we've said that this shows you the context of heaven and earth within the Bible words. Bible words therefore will have a cultural, earthly context and a supernatural origin to it. So we said that earth there will interpret heavenly issues, heavenly words, as it were. So we therefore are reading a literary material filled with parables, illustrations and a lot of grammatical explanations. And like we said, we need to go through the human method of human vessels to get the message to the divine message, the supernatural message within the Scriptures. 
+
+## Who Gave the Law?
+
+So we asked the question earlier on, who gave the law? From the commentaries we have read so far, I'm going to repeat myself. We need to read the text. Let me mention something. If you have ever used libraries, library, we can call the Bible a library, but that's the word, a library. You don't expect a library to have the same words all through. There'll be different expressions of the same things, sometimes different viewpoints, you know, on the same subject matter. Our work is to find that interrelationship that we have amongst the different writers of Scripture. 
+
+So back again to what was said. Who gave the law? From Deuteronomy 31, it's obvious. Moses wrote the law. He gave the law. That's the text in Psalm 103:7. We just read that he knew the ways of God while the children of Israel knew the acts. We said the word "ways" is the word *Derek* from *Darach*, which actually means to know a plan, the purpose and pursuit of God.
+
+And we saw again in Numbers 27, where the daughter of Zelophehad actually countered an instruction Moses gave. Of course, it wasn't out of rebellion, it was out of supplication. And God told Moses, "They are right." Now, maybe something we probably will say he didn't say is, "You are wrong." So there was a modification in what he did. Now, it's not that the word of God was modified because in Matthew 19:7-8, we saw how Jesus said, "Moses, because of the hardness of your heart, suffered you to put away your wives. But from the beginning it was not so." Which means that we must therefore be able to explain texts within their context.
+
+## Explaining Texts Within Their Context
+
+*Much of the challenges people have with the Bible and slavery, women, misogyny, sorry, what they have around child trafficking, slave trade, violence, has been a problem of not finding the context of the event, when the events are situated properly in the context.* 
+
+For example, if we read the wars of Judges and Joshua as having a supernatural context to it, the thought and the idea of genocide will not cross our minds. Of course, that will come in between the age long debate of Nephilims and the Anakims, whether they are natural or supernatural beings. The fact that it's still a debate already shows you that there's much to understand about those wars. Therefore, we mustn't equate those wars as a typical conventional warfare of today. Obviously, when a New Testament writer talks about spiritual warfare, he implies those things.
+
+Okay, so in Matthew 19:6-8, when Jesus speaks about Moses, "Because of the hardness of your heart suffered you to put away your wives, beginning it was not so," we find a unifier there. Firstly, Moses did not write to them. Secondly, Moses was given an instruction nature of Israel in a cultural context of divorce. So what is the unifier? We must always find the unifier. The unifier is where we have the terms fulfilled. The unifier brings Jesus and David together. David is not on the cross. Jesus is on the cross. But they use the same words at times. 
+
+Let me throw this at you. Is there a likelihood, for example, the phrase, "My God, why have you forsaken me?" Is there a likelihood that it's not there verbatim what Jesus said? *Don't forget that these guys were not at the cross.* Now, of course they had evidences of people. Luke also said he spoke to women. You know, is there an evidence? The fact that they saw the experience of David like that of Jesus, and then they literally put the words of David in the mouth of Jesus. Now, does that remove the authenticity of what happened? No, it simply means that David and Jesus shared a similar experience, even though David was not on the cross. So the writers of the New Testament use the unifiers where they are able to say, just like David, like Jesus. 
+
+## The Unique Privilege of Moses
+
+So back to what we said. Who gave the law? It's clear from the text of Scripture that Moses gave the law. 
+
+> **Numbers 7:89**
+> And when Moses was gone into the tabernacle of the congregation to speak with him, then he heard the voice of one speaking unto him from off the mercy seat that was upon the ark of testimony, from between the two cherubims: and he spake unto him. 
+
+Obviously, Moses had an interaction with God that was very different. 
+
+> **Exodus 30:6**
+> And thou shalt put it before the vail that is by the ark of the testimony, before the mercy seat that is over the testimony, where I will meet with thee. 
+
+> **Leviticus 16:1-2**
+> And the Lord spake unto Moses after the death of the two sons of Aaron, when they offered before the Lord, and died; And the Lord said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy place within the vail... for I will appear in the cloud...
+
+So Aaron was giving instructions not to move close. But we find the same place, Moses goes in and out of the same place. So what I was saying was this. We can't equate Moses to the children of Israel. No, you can't. That's why the psalmist said he knew his plan. I noticed that what Moses was doing in the tabernacle is similar to what believers are today. So we must therefore separate the person and personality of Moses. But be very careful. Moses is not Jesus, and he's not greater than Jesus. We'll explore that shortly too. So the giving of the law was done by Moses.
+
+And without doubt, Moses had special privileges such that a whole section of the Bible that gives the foundation of the entire revelation of God is given to him. Moses in the law, Moses in the law. He had special privileges. We can't take that away. So to say Moses gave the law as human as it sounds, does not reduce the validity, authenticity and the divine nature of the law. We could see the kind of person he was. He had that interaction. 
+
+## The Meekness of Moses
+
+If I look at Numbers 12, when Aaron and his sister, they are both Moses' siblings, questioned in verse one: 
+
+> **Numbers 12:1-2**
+> And Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married: for he had married an Ethiopian woman. And they said, Hath the Lord indeed spoken only by Moses? hath he not spoken also by us? And the Lord heard it.
+
+I like that verse. The Lord heard it. He said it in the room, but heard it. 
+
+> **Numbers 12:3**
+> Now the man Moses was very meek, above all the men which were upon the face of the earth. 
+
+This is obviously an editor's work. He couldn't have written this himself. Okay, that means look at what the editors are doing to the story. They want you to see that Moses, they painted Moses as human because we saw he had his frailties. But he lets you know that he had a special privilege with God. And he also had a character that you can emulate. 
+
+And the Lord spake suddenly. Now why would they call him meek? I'll tell you. Meek means someone that can control the use of power. Now you can look at Moses and say he has fits of anger and all that. But hey, if you look at what he controls, he led a whole nation and he was responsible for... I mean, look at a Pharaoh. *Maybe because Pharaoh was just one ballet. Ballet is one earthly king in the village. No, Pharaoh was actually a God.* So Moses, asking Aaron to talk to him, is telling Pharaoh that, "See, I don't talk to you directly. You are a small boy." And he had all of that. And he took Pharaoh to the cleaners, you know, and you notice that it was both ways. The supernatural beings were taken out in the Exodus and Pharaoh and his people were taken out. 
+
+And I said, well, why did God, you know, people... people usually do not question the fact that Pharaoh and his army perish in the sea because they think that's conventional war. They were coming after them. The other issues they are looking at. But the point is, the fact is Moses took him out. So that kind of person not being able to intercede on people's behalf and all that... so the authors came to that conclusion and said he was meek, a man that can control the use of powers. 
+
+And the Lord spake suddenly unto Moses, and unto Aaron, and unto Miriam, "Come out unto the tabernacle of the congregation." And they three came out. When he said, "Come out," it doesn't mean God can't come and meet you. "Come out. Everybody come out. Line up in the boarding house like labor line." Pillar of the cloud. And stood in the door of the tabernacle and called Miriam and Aaron, and they both came forth. And he said, like, you know how he talked when you talked to your... "Come, you stand here like this." Discipline is about to start here. 
+
+> **Numbers 12:6-8**
+> Hear now my words: If there be a prophet among you, I the Lord will make myself known unto him in a vision, and will speak unto him in a dream. My servant Moses is not so, who is faithful in all mine house. With him will I speak mouth to mouth, even apparently, and not in dark speeches; and the similitude of the Lord shall he behold: wherefore then were ye not afraid to speak against my servant Moses?
+
+The writer of Hebrews references this in Hebrews 3:2-5. 
+
+Now imagine you say this is Old Testament. So is he an Old Testament God? We should be smart, say, "Were you not afraid?" That is, "You've seen how I relate with someone, the privilege I gave him. Were you not afraid?" *You know that like I was telling Pastor Paul, God did not even address what they were talking about. He addressed how they were talking.* "Were you not afraid?" 
+
+So this is the kind of person Moses was. It's obvious that he had special privileges. 
+
+> **Exodus 33:11**
+> And the Lord spake unto Moses face to face, as a man speaketh unto his friend. 
+
+> **Deuteronomy 34:10**
+> And there arose not a prophet since in Israel like unto Moses, whom the Lord knew face to face.
+
+*Saul was telling me that nobody has ever been as rich as Solomon. Because the Bible says nobody before after him. And that's according to the writer. You see, we have to know how to use Bible words. Nobody has... That's in the Bible. People have money. There was a Mansa Musa, that's his name. Solomon did not... Solomon... How... so we should not read the Bible words, you know, always find context to what was said.* 
+
+Okay, so you find Moses. Nobody arose after him whom the Lord knew face to face. We have no doubt that there is a uniqueness to the ministry of Moses. And let me mention this. I believe that the same respect should be given to him today, because Jesus did. So the Hebrew writer, right, picked this narrative. Let me get back to that. 
+
+## Uniqueness of Men of God
+
+So Moses definitely had a unique privilege with God for the course that he... Someone has asked me that, "Is this possible today?" Of course, you can't say that Paul didn't have that. Son, he did. Paul did. There are people that for what God is using them for, it's not... they are not... they are just first among equals. It's not that they are a special breed. They are not human. No, it's just because of the hand of God on their lives. 
+
+And it doesn't mean that there are things Moses will do we can't emulate. But they are descriptive. They are not prescriptive. There are things he did that we are not supposed to do. *For example, I remember one day like that we were having an argument over Paul and Barnabas and somebody who was right. If you see anything tomorrow, I'll look for you. Someone said, "But they argue he was strife, strife." I just found a way out. I said the church recommended Silas. Now the reason why I said that is because I like Paul. I said, "Was Barnabas right or wrong?" Of course, by the time we look at it again, of course in wholesale, the truth is or the matter is that I mean, Barnabas knew that God called Paul. And whether we like it or not, Barnabas' letter is not in the New Testament. What can we... now somebody... I found it. Go and read it. Maybe you'll be saved.* 
+
+So, you know, Moses definitely had such special privileges. And when you just look at the history of the church, look at different men. And that's why we must never focus on their humanity. Neither should we emulate their humanity. Because sometimes this becomes a free pass. "Oh, because God has used somebody and the person is human..." If you say, "I'm human," you now don't want to grow spiritually. You now live wrong. Whatever your eyes see, your mouth will not be able to say it. So the truth is he was human, but he had special privileges. 
+
+So when the writer says he showed his ways... his *Derek*, his plan to him. It's like David too. His plan to him. You know, sometimes we try to look at how unique David was. Not in his worship. What song was he singing? Is it God that is moved by songs? His heart. Solomon had good... I mean, Jonathan had good heart. Now, Jonathan had good heart. How can you say that? Someone should take over your father's throne and you go after him, when you knew that you were the next in line. That's a good heart. But with all his confession and humility, God did not use him. So it's not that. It's just the fact that God placed his hands on David. Simple. So the writer of Hebrews now relates differently.

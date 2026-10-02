@@ -1,0 +1,99 @@
+## Contextual Interpretation of the Old Testament
+
+Okay, I first did it in Zambia, then I think we did it later on how many people actually left Egypt. And then we talked about millions, the use of thousands. And then we saw the way we use thousands now wasn't how they use thousands then. So we must find the historical context, geographical context. All right, then look at the concept of "utterly destroyed." I would say "utterly destroyed." The women and the children, in today's language, that is genocide. But that is not the meaning in the Old Testament. So we must therefore, *you know*, be at home or embrace their cultural and grammatical historical context.
+
+## Paying Attention to Literary Design
+
+We also said, *let me see another thing mentioned last week. Read. Yep.* Pay attention to the literary design. How is it written? *You know*, Bible is in literature, not what I said down. You have a... There's a literary design there. The way I use smell now, the breath, the wind of God. These are literary terms. So if you now make it... If something is meant to be a figure of speech and you not make it literal, even though a literal context or a figure of speech is also as valid, but it's a figure of speech. You will miss the point. *Yeah.* 
+
+So we must read the Bible that way. We must be able to get the grammatical connotation and the historical facts. How is it? How did that audience read? How come? Repeating myself, *like I said last week*, that the New Testament audience didn't find the Old Testament word like we are finding it today. Because the identification unifiers were used by the teachers, biblical writers, New Testament writers, such that you can understand what is being said. But what we have done is to impose modern terminologies on Old Testament words. Then that can't work. We are going to be likely misled.
+
+## The Usefulness of Old Testament Narratives
+
+So going back to Paul, 2nd Timothy 3:16, *no, we said that.* Does the New Testament writer retain the Old Testament context of the spiritual world? We said, "Yes, it does." That now shows us something that, just like Paul said, "all scripture given by the spiritual of God is profitable." We therefore must submit that there is no part of the Old Testament that is not useful. Every part becomes useful. So as a teacher of scriptures today, the church, the congregation needs the narratives of the Old Testament. The New Testament church or today's church must be accustomed with the stories. Adam, Abraham, Samson, Solomon, we preach those stories. 
+
+Now, preaching doesn't mean telling the stories. It's explaining the stories. And explaining those stories, we must stick to their supernatural world context, their grammatical context, their theological context. 
+
+## The Example of Abraham and Isaac
+
+Now, I'll repeat it again, that look at God and Abraham. When God told Abraham to offer Isaac, because we're too quick to connect it to Jesus, we said what he was saying was Jesus was going to die for our sins. It's not in the text. And key element of Bible interpretation is what was in the mind of the author. Was the author talking about Jesus? No. Now, in the historical context of Abraham, the Mesopotamian Chaldeans, it's not your A and E. But do we have the offering of children? Oh, sure. So why did God ask him to offer his son? Because that's what he asked him to do. He didn't ask him to offer Jesus to offer his son. Because the Bible calls it a test to prove his loyalty. Why? Because in that world there were other worshiped or worshipable gods. Nothing. There's no other context to that scenario. There's no other context to it. 
+
+Now, that is not the John 3:666, 3:16 movement. Because the New Testament writer doesn't say that. James, James 2. James arguably was the only one. *No, writer of Hebrews 2.* Let's look at writer of Hebrews first. 
+
+> **Hebrews 11:17**
+> By faith, verse 17, Abraham when he was tried. 
+
+That's not salvation. The word here is "periazo," P-E-R-I-A-Z-O, which means to prove, to examine. That's not salvation. So what we are reading here is about Abraham's spiritual growth when he was being proven, offered up Isaac.
+
+> **Hebrews 11:17-19**
+> And he that received the promises offered up his only begotten, of whom it was said in Isaac shall thy seed be called, accounting that God was able to raise him up even from the dead, from whence also he received unifical. 
+
+So which means that Abraham's statement, the writer here is not even trying to interpret it. He's trying to bring significance there that, look, when Abraham was taken Isaac there, what was in his mind was, "I'm going to offer Isaac. And God was going to raise him from the dead. Because God promised me that in this Isaac shall all the nations of the earth be blessed." So it's not like Abraham was looking at Isaac. He knew God was not going to... *no*. So that's spiritual growth. Which means that his spiritual growth, we are tested and proven.
+
+## Proving God's Will Through Works
+
+> **Romans 12:1**
+> Romans 12:1 says, I beseech you to bury by the mercy of God as a living sacrifice, holy and acceptable, which is un worship. 
+
+> **Romans 12:2**
+> Then he says in verse two, be not conformed to this world, but be transformed by the renew of your mind. That you may prove 
+>
+> *(of course that one is Dokimos, though different word)* 
+> 
+> that which is the good, acceptable and perfect will of God. 
+
+But in the Christian world there is a proving right where Abraham is now bearing fruit. He's bearing fruit of the faith that he had. "I can recklessly abandon myself to the Lord" and all of that. So that's not a salvation moment. In James 2, Verse 22:
+
+> **James 2:22**
+> was not Abraham our father justified by works when he had offered Isaac his son upon the altar? 
+
+There's nowhere New Testament writer said it was Jesus that he offered. There's nowhere. Was Isaac.
+
+> **James 2:22-23**
+> saith thou that faith wrought with his works but his works was faith by works was faith made perfect. The scriptures are fulfilled, was fulfilled, was said. Abraham believed God was beautiful righteousness. And he was called. Verse 23 he was called the friend of God. 
+
+A statement that came later on. In Second Chronicles chapter 27 he was called the Friend of God. And Isaiah 41:8, now Friend of God is someone that you are fond of. Isaiah 41. And verse 8. 
+
+> **Isaiah 41:8**
+> Israel, my servant Jacob, who had chosen the seed of Abraham, my friend. 
+
+And Jesus used the three words for disciples. "I call you my friend. A servant does not know what his master does." So this is not a John 3:16 moment. The writer of Hebrews and James are talking about walks of faith. Walks of faith.
+
+## Teaching the Narratives Properly
+
+It's not the salvation get born again moment. Rather is now that you are saved. These are your works. So we must make that connection. Abraham believed in the Lord, counted for righteousness. James now puts the two together. "Yes, Abraham believed God. Yes, Abraham was counted to him for righteousness. But Abraham offered Isaac." Those are the works of that believing. So people that are trying to say James and Paul were... *depends on what you are talking about*. Writer of Hebrews said about the same thing, that this was the work of faith, having believed God. So we must therefore teach the narratives, teach it properly. Because the New Testament writer does. First Corinthians 10:11. 
+
+> **1 Corinthians 10:11**
+> They happen to them as examples to us upon and written for abolition upon whom the hands of the world are come. 
+
+What about genealogy?
+
+## The Role of Genealogy and the Psalms
+
+Why would the New Testament writer include genealogy? Genealogies actually show us the faithfulness of God. By the time you see Bathsheba in there somewhere, Boaz and Ruth somewhere, you begin to look at those names. Somewhere in the genealogy, what you will see is God's faithfulness. You see Judah, you see how Benjamin usurped authority and God restored it back to Judah. You see, that's what genealogy does. You see God's favorite faithfulness, how God walks through the generations that he said he's going to walk through. 
+
+What about the Psalms? Now I've explained the Psalms to us when we're doing the introduction to first and second Samuel, that the Psalms will include things that you are not comfortable with. Things like "destroy them, O God, quench my enemies, move their teeth." *You know*, you feel but the Psalms, right, is where a man is asking for God's help and Jesus does the same on the cross, where he is seeking for justice and fairness and equity. Where he laments, *you know*, the cause of evil and darkness in the world and the Spirit of God also caus us to... *I won't use the word lament alone.* Lament and mourn over such issues. 
+
+You find in the Psalms a remembrance of things God had done before. You find the Psalms anticipation, expectation of a kingdom yet coming. The Psalms will have a lot of griefs, so don't run away from them. And notice that New Testament writer uses it. The Psalms were used to speak about the betrayal of Judas and his replacement. Not too good moments, but it became applicable by the New Testament Church. It will show God as our rock and fortress, as our ever reliable ally. The Psalms, which are largely attributed To a king will appoint God as the king. Many of them, like attributed to a shepherd, appoint God as the shepherd. 
+
+So we must therefore preach the narratives, preach the stories, begin Genealogy is also important. Preach the Psalms, the lamentations against evil, the voice of hopelessness, yet resting its hope on God alone. 
+
+## Understanding Wisdom Literature and the Prophets
+
+What about books like Job, Ecclesiastes and Proverbs, Songs of Solomon? They show us exercises, shows us the world from a human point of view. And God inspired it, seeing everyday living and life, practicalities of wisdom. The prophets will show us how, by revelation, God reveals his plans to them, what he was doing in their world, his providence and his interventions and a call to the worship of God. The psalms, *I mean the prophets*. And I said before, much of what is called prophecy is not a prediction of something far in the future. More often than not is what God will do in that world. 
+
+## The Epistles and Application
+
+Of course we preach the four Gospels, obviously where we have Jesus, our Messiah, living as the God man. Then the epistles. The epistles will be rich in application. How? The truth of the Old Testament, the narratives, the stories, the prophecies, the God's interventions will now apply to a church. Now maybe I will put something, a note there. This church is a Gentile church, which means largely, we said the other day that. Look at Sunday, look at Paul's letters. All Paul's letters were to non Jewish communities.
+
+Romans, 1st and 2nd Corinthians, Galatians, Philip, *I mean Ephesians*, Philippians, Colossians 1:2, Thessalonians, Philemon, which is the leader in Colossi, Paul, 2nd Timothy is Ephesus. The titles to Crete, all of them are non Jewish communities. *Okay*, then we now have first and Second Peter, Asia, first, second, Third John, Asia, writer of Hebrews and maybe James are the only letters written to Jewish communities. Writer of Hebrews, James, Jude is also to Asia. The Book of Revelation is also to Asia. Seven churches in Asia. That's why I said that the epistles therefore cannot be interpretation. It has to be what application. But you can't get application without first of all interpreting. So it takes therefore the whole Bible to disciple a believer. The whole Bible to disciple a believer. 
+
+## A Groundbreaking Discovery in Biblical Languages
+
+I'm going to read something out to us. It's an excerpt that I believe in the next couple of years will revolutionize Bible translations totally. *It's, it's, it's.* It will be asserted and proven. But to revolutionize totally, I'm going to read an excerpt for us now. 
+
+"Recently, Two Israeli scholars specializing in ancient cuneiform writing, say a language Very similar to Hebrew was a spoken language from at least 3,800 years ago. Newly translated cuneiform tablets show that a form of Hebrew was spoken. The cuneiform tablets were discovered in Iraq and now only recently translated. The tablets have Canaanite Amorite in one part, a translation in Akkadian. Both Professor Nathan Wasserman of the Igbo University Institute of Archaeology, exponent of ancient Near Eastern civilizations and Dr. Professor Yoram Yuri Kohen of Tel Aviv University Department of Archaeology state the language on these coliform tablets was similar to Hebrew."
+
+"As reported in Heritage Newspaper Online 01-20-2023 the wrote the latest issue. This is what they said in this text which is very ancient words appear that anyone who knows Hebrew will immediately recognize. You don't have to be in limbo to understand the connection to Hebrew. Basically we're looking at our forefathers here. This is very significant discovery for anyone who speaks Hebrew." 
+
+Now he said beyond the text proves beyond the shadow of doubt that already in the second millennium there was a spoken language that was very close to Hebrew, which had been only known from the first millennium. That is there was an assumption that Hebrew language was much more later. *I'll tell you the implication shortly.* "There's no doubt that the Hebrew language was spoken long before Moses and even during the times of the patriarchs Abraham, Isaac and Jacob."

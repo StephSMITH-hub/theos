@@ -1,0 +1,36 @@
+# Two Kinds of Righteousness Series 2 Part 1 - Track 13
+
+## The Primacy of the Teaching Ministry
+
+The Scriptures place an immense, unparalleled premium on the teaching ministry. From the earliest narratives, we see that the transmission of God's Word was an exhaustive, meticulous process of education. In Exodus 18, we find Moses sitting from morning until evening, judging the people. Yet, his \"judging\" was not merely settling civic disputes; as he explained to his father-in-law Jethro, he was making the people know the statutes and laws of God. This was the *Torah*—the doctrine and instruction—being delivered orally long before it was codified into written texts. Moses was essentially operating the first Bible school in the wilderness, enlightening the people and giving them divine direction. 
+
+This robust culture of discipleship and instruction continued throughout Israel's history. Nehemiah 8 records Ezra the scribe standing before the congregation, reading the Book of the Law distinctly, and giving the sense so the people could understand the reading. Fast-forward to the New Testament, and we see Jesus on the road to Emmaus, systematically expounding the Scriptures concerning Himself from Moses and all the prophets. The Apostle Paul replicated this exact pattern in Acts 28, persuading the Jews concerning Jesus out of the Law and the Prophets from morning until evening. Therefore, the teaching ministry is not a casual pastoral duty or a brief motivational speech; it is the exhaustive, painstaking work of interpreting ancient texts and persuading the human heart to believe.
+
+To be an effective teacher of the Scriptures, one must act as both an interpreter and a translator. A minister is tasked with crossing massive linguistic and cultural barriers. God's eternal truth was communicated in human language, initially through ancient Hebrew oral traditions, which Moses later documented using literary structures influenced by Egyptian culture. The New Testament writers then translated these Hebraic concepts into Koine Greek to reach the Greco-Roman world. Today, the modern teacher must accurately translate these ancient Greek and Hebrew texts into contemporary English without losing the integrity of the original information. This demands a basic, functional understanding of the original languages and the historical context of the authors. Ignorance of grammar and history invariably leads to flawed theology.
+
+**Acts 28:23**
+[23] And when they had appointed him a day, there came many to him into his lodging; to whom he expounded and testified the kingdom of God, persuading them concerning Jesus, both out of the law of Moses, and out of the prophets, from morning till evening.
+
+## Unifiers of the Biblical Narrative
+
+When a teacher stands to minister, they must locate the \"unifiers\"—the common denominators that bridge the ancient biblical world with the modern world. Despite the differences in geography, language, and culture, the underlying theology of the Bible remains entirely consistent. 
+
+The first unifier is the confrontation of faith and unbelief. Whether it was Moses dealing with a rebellious generation in the wilderness, Jesus rebuking the Pharisees, or Paul writing to the Galatians, the primary issue is always humanity's resistance to trusting God. The entire Bible is a book of persuasion designed to elicit faith. 
+
+The second unifier is Christology. The Old Testament is saturated with the anticipation of a Deliverer, a Messiah who would rescue humanity from the bondage of sin and death. This Christology breaks down into specific theological branches: Soteriology (how the Savior saves through redemption and reconciliation), Pneumatology (the work of the Holy Spirit to accomplish this salvation), Eschatology (the \"last days\" fulfillment of all God's promises), and Ecclesiology (the gathering of the redeemed people into one body). 
+
+The third unifier is the foundational texts themselves—\"Moses and the Prophets.\" Every New Testament writer utilized the Old Testament as their primary source material. You cannot profoundly understand the Epistles of Paul or John if you are ignorant of the narratives of Genesis or Exodus. When Paul uses terms like \"redemption\" or \"justification,\" he is not inventing new spiritual vocabulary; he is using commercial and legal language to summarize the epic narrative of the Exodus. The Old and New Testaments are inextricably linked; they rise and fall together.
+
+## The Calvinist Error and the Language of Permission
+
+A proper understanding of ancient Semitic linguistics, or \"Hebraisms,\" is critical for establishing sound theology, particularly regarding the sovereignty and character of God. The ancient Hebrew language heavily utilized idioms and often blurred the lines between cognitive tenses (what God knows or foresees) and volitive tenses (what God actively wills and executes). In Hebraism, permissive actions—where God simply allows an event to unfold—are frequently written as active, causative verbs. 
+
+This linguistic nuance is tragically lost on many modern theologians, particularly those within the Reformed or Calvinist traditions. Calvinist theology asserts a doctrine of fatalistic hyper-sovereignty, claiming that whatever God permits, He actively decrees and ordains. Prominent Calvinist scholars have explicitly written that God's permissive will is virtually identical to His decretive will, meaning that God eternally ordained and actively willed the Fall of Man and every sin ever committed. This is a horrific misrepresentation of God's character, born out of a failure to understand ancient literary devices. It creates a theological monster—a deity who forces men to sin and then brutally punishes them for the very sin He authored.
+
+When the Old Testament says God \"hardened Pharaoh's heart,\" it is a Hebraic idiom expressing God's inability to persuade a stubborn ruler. The hardening was the result of Pharaoh's rebellion against God's passive patience, not an active spell cast by God to force Pharaoh's disobedience. Similarly, when the text says God \"sent\" evil or \"caused\" destruction, it means God withdrew His protective presence in response to Israel's idolatry, leaving them vulnerable to the natural consequences of a fallen world.
+
+The Apostle Paul perfectly translates this Hebraic concept of wrath for his Greco-Roman audience in Romans chapter 1. In describing the wrath of God against human rebellion, Paul does not say God struck people with lightning or actively orchestrated their ruin. Instead, Paul repeatedly states, \"God gave them up\" or \"God gave them over.\" The wrath of God is His grief-stricken withdrawal. It is the lamentation of a Creator who steps back and allows rebellious humanity to reap the destructive harvest of the sin they have sown. God is the Savior who offers the cure; sin is the disease that executes the judgment.
+
+**Romans 1:24, 28**
+[24] Wherefore God also gave them up to uncleanness through the lusts of their own hearts, to dishonour their own bodies between themselves:
+[28] And even as they did not like to retain God in their knowledge, God gave them over to a reprobate mind, to do those things which are not convenient;

@@ -1,0 +1,63 @@
+## Parables and Understanding the Biblical World
+
+*Would it be unfortunate if you now go to the Bible? You won't find brain in the Bible. It's not there. You won't find some of those core parts of human nature. It's not there. You don't expect there to be. You know, you won't find science. So to say that, oh, that's where the. If it uses its own science in their world, even though there was none, it's to point to something else.*
+
+Of course, the Bible is a book of parables.
+
+> **Psalm 78:2**
+> I will open my mouth in a parable: I will utter dark sayings of old.
+
+Things seen from old were written in a *Masha* (parable), in a *Chida* (puzzles). So if a parable means to take something from the existing body of knowledge of your world, observation, to point out to a supernatural world or another theme entirely, it therefore means you are going to find the science of their world, knowledge of their world, culture of their world in Scripture. Let me say that again, this is very emphatic in your study of scripture, the use of parables by biblical authors. And that didn't start with Jesus. In fact, within the temple pyramid where you have between the last prophet, as we call it, and the time of Jesus, the rabbis and the scribes use a lot of illustrations because that is how the Scriptures are written. So I will use what you know to illustrate what you do not know. So it's from what you know that you can contact what you do not know.
+
+So it also means that—listen to what I'm about to say next—if the illustrations had to do with their world, a pre-science world or a pre-modern world, it means therefore that for us to understand, if the illustrations are the methods to teach, it means we have to travel back in time to understand that illustration first. Because without the illustration you cannot get the lesson. You have to travel far to get it.
+
+*This is why I said something that somebody almost threw a fit and called me a heretic. Maybe I am one. And I said the information available to us today about the culture, Egypt, the culture of Babylon, the culture of the ancient Near Eastern was not available to Paul. That's not difficult to see. The information was not. Which means we have a tangent slightly more advantageous in explaining those things than the Pauline era. That's tough for me to say, being a strictly Pauline person I still am. But the truth is what's available now was not as available to them. Whether it's grammar, history, culture.*
+
+This in no way invalidates the truth spoken. Actually it reinforces it. So do we need to see the culture? Yes. Therefore there's more than one stream to Bible understanding. Say, go to the history, go to the culture. But do now not make the error of extremes. You now do be doing study of culture, study of God's word. No, they are to complement it.
+
+## Old and New Testament Theology of Heaven
+
+So the heaven of the Old Testament writer and audience, is that the heaven of the New Testament writer and audience? Yes, it is. Because Jesus, the New Testament writer would say they heard a voice from heaven. Old Testament they had a voice from heaven. Peter said they had a voice from heaven. Paul said he went to paradise. We can go on and on.
+
+And the concept of in Christ has to be the Old Testament theology of the natural and supernatural in the same space, just distinguished. The word in Christ, in the Spirit. Everything Paul said, we're raised and sat at the right hand of God. And then you are looking around for what he's saying. You are trying to modernize the phrase. He's saying go back to the Old Testament. Right hand simply means an exploit done by God, outstretched arm. What's the exploit is Jesus raised from the dead. All the forces of evil were defeated at once. And we sit in that exploit. It's the basis of the believer's authority today.
+
+*So if you are thinking right hand, unfortunately, because of lack of knowledge of that, somebody had a vision and said he went to heaven and he saw Jesus at the right hand of God. You know, that's so funny because it reflects in your dream such ignorance.*
+
+I said no. The same way people talk about hell and the audience of Jesus when they spoke about it. Of course, the concept of hell is not Old Testament. Old Testament is Sheol, the unseen world of spirits, departed spirits, rebellious spirits, the basic word used there. Sometimes we use the word *Eretz*, down under the earth. They didn't have the concept of Gehenna. Gehenna came between the Old Testament era and the New Testament era. Of course, there's a bit of history too. I think I take that back. It has a bit of history from the Old Testament where things are burnt and destroyed. Okay, so when it says everlasting fire, it simply is not talking about a fire that is always burning. Because the fire of Gehenna is called everlasting fire, not because it's still burning today, but whatever heat destroys is gone forever. So when the audience says hell, we just say hell in the four Gospels, they all go back to that place where things are burnt. We must travel back in time to sit where the audience sat.
+
+*So when we talk about Paul, and I was saying this again that we—for me, I think I was talking about folks yesterday and were discussing something about, we're grateful for revivals, the moves of God, the Reformation. But we must be careful not to interpret scriptures in the light of events that took place after the Scriptures were written, that's bad interpretation. I'll take that again. It's like reading the four Gospels and interpreting it with the epistles. Whilst that is good in its eschatological importance and this is how it is fulfilled, it is not good in its interpretation because you cannot interpret an event through an event that has not happened, except the writer expressly or the speaker directs your attention to something that is about to happen. In many instances, no, Jesus did not explain what he did through the epistles of Paul, he explained what he did through Moses, Prophets and the Psalms, Luke 24:44, Luke 24, 25:27. He did not postdate the interpretation. He backdated the interpretation.*
+
+Now, is there a connection between the epistles and what Jesus said and did? Of course, but by eschatological fulfillment, that is something that now happened after is connected to what he said or did. Therefore, we must not misuse the epistles for what it was never intended to be. We'll look at that in the second session because I'm going to talk about charismatic gifts. And you know why? I said at the Masterclass that our concept of finished work of Christ has a whole lot of challenges. It's this idea of God has done something, he has done away with it. And sometimes it's just inferred by us wrongly.
+
+So does the New Testament writer, author, audience retain the Old Testament concept of heaven and earth? Yes, they do. Do they call the space we are in heaven and earth? Yet they do, as much as "the earth is the Lord's and the fullness thereof." That is when David said that, the psalmist, all he was saying was this earth. Then he established it. He said he established it upon the flood. Which means he's looking at the supernatural world. "Who shall ascend to the hill of the Lord" in the same space. So which means that he's talking heaven and earth in the same place, even though it's distinguished. Psalm 24.
+
+Does the New Testament writer retain it? Yes, he does. So when they talk about the earth is God's temple. And God's temple by saying it's God's temple, heaven and earth is here. So in one breath you call it the earth, the space, in one breath you say heaven and earth, the land and the air in one breath. The supernatural and the natural, they are all synonyms and expressions of the same. Who is following what I'm saying here? So we have to be very detailed in talking about that.
+
+## A Renewed Earth and the New Covenant
+
+So like I said last week and I repeated yesterday, our idea of rapture, that the saints will now leave the earth to heaven would have been perfect if heaven was not included in the renewable creation, if heaven was also not included in what had gone wrong. Because obviously the writers of the Old Testament said sin also happened in heaven. They said heaven was polluted and corrupted. Of course, you have the idea alone, there is more than one heaven. There are three heavens. The heaven where God is, the heaven where you know. But before we fight over that, at least one of the heavens or two of the heavens have been corrupted. Let's leave the third one.
+
+So the idea of separating heaven and earth is not helpful at all and has not been. So yesterday we looked at the concept of new and I said that new has not been *ex nihilo* or brand new. The concept of new is to renew or repair. *Well, for me, I think this is where I think—I think it reinforces something that we should actually see that God doesn't waste things. And for me, it lets you see that he sees good even in the very midst of darkness. He didn't take out darkness right. He shined light out of darkness.*
+
+Remember that the first reset of the earth happened in Genesis 6 through to Genesis 9. And he said, this earth will no longer be destroyed. Some now said, "no. He mentioned water, not fire." Keep your mouth shut. What he has said is that seed time and harvest would not cease. Day and night will not cease. Summer and winter, cold and heat. That we're just going to be having seasons, but the earth will remain. Is that clear? By saying the earth will remain, don't forget the statement before. Genesis 8:21 was he smelled a sweet savour upon what was offered in the earth. That's heaven and Earth. Genesis 8:21 and 22.
+
+So having said that, we therefore must rethink our end of the world stories. Rapture stories, Antichrist stories. It will work out. If we don't get the premise wrong, it will work out fine. But where there lies that heavy contradiction of how we think about heaven, our rapture stories will always be rapturable. Pardon me.
+
+So we talked about new covenant being renewed. God renewing his covenant. *One of our books in Lisa, God, we said it explains the faithfulness of God, how he sticks to his plan.* The holy city has gone bad. Throw it away in the dustbin. Let's start again. He starts again with what went wrong. Okay. Genesis 1 to 2 shows you that he began with what was available. Darkness. Tohu wa-bohu. The desert. His spirit moved upon it and upon those chaotic seas, we now have rivers of living water in Genesis 2.
+
+So he will renew. So basically, like I said, there are two major theories. One that talks about the earth will go and they are both together. But like I mentioned, the issue is how. Has God, has scriptures ever given us an *ex nihilo* account? No, there's never been an *ex nihilo* account. *Ex nihilo* simply means there was absolutely nothing. God brought something out of nothing. You know, that's *ex nihilo*. Has there been any account like that in scriptures? No. Every time creation is mentioned, it's always how God took something out of something.
+
+## The Nature of the New Creation
+
+So yesterday we looked at Paul's concept of new creation.
+
+> **2 Corinthians 5:17**
+> Therefore if any man be in Christ, he is a new creature: old things are passed away; behold, all things are become new.
+
+Now even this saying, old things passed away, all things become new. What things become new? Which means that God simply took what was happening and did something with it. So he said, new creation has three, multi- or is it multi-layered into three? One, the believer substantially is in Christ. New creation. He substantially is in Christ. You have the word *Kainos* from the word *kainē ktisis*. 2 Corinthians 5:17, Galatians 6:15.
+
+So you can call it new humanity or a new self, which Paul uses again in Ephesians 2:15, *Kainos anthropon*, new humanity, *Kainos anthropon*. Ephesians 4:23, 24, Colossians 3:9, 10. And we said this is not unique to Paul, right? It emerges both from the Old Testament and just prior to the four gospels era. So new creation, new humanity, new persons.
+
+But let me ask you, new creation in Christ, did you come out of nothing? No. So we're not *ex nihilo*.
+
+*I remember in our earlier days of new creation realities, we used to say this. And I got it from one of my friends. Lovely. And you say, "I was not, I didn't go to primary school." And why? Because he got born again in his form one of secondary school. He said, "this person we are looking at started existing in secondary school."*

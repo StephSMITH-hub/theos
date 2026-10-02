@@ -1,0 +1,64 @@
+## Revolutionizing Bible Translations
+
+This is going to revolutionize translations a lot. The fact that the cuneiform inscription could be an early form of Hebrew gained support by ancient proto Semitic Alphabet found in the Sinai by Flinders and Ida Petrie as in the beginning of 1900s and all that. Now the implication of this, *I'm going to break it down for a little bit later*, is that the stories of the patriarch had been written long before Moses, every up till 2023. *That's why sometimes I laugh when some people are talking about early church fathers. I just look at them. Are you joking?* We have much more information today based on our modern archaeology. I'm telling you something that was last year that will revolutionize Bible translations altogether.
+
+Because up till that point the average transition agreed that Moses was the first writing of scripture, that the Old Testament was given to him in oracle form, oracular form. But notice this. I mean the patriarch story, but notice this, if this is asserted right, is that the stories could have been written long before Moses on cuneiform tablets and passed down. It means that already at the time of Moses, 1450 BCE or 1250 BCE, the Hebrew was in existence and would have been written except for Moses to have written the Torah in Hebrew. Which means that if this is so, our assumptions of the. The earliest form of writings with Moses will have to be revisited. This will revolutionize transitions generally. So that's why I'm saying to people that, *you know*, someone said that "we should look at church history." There is not.
+
+## The Importance of Historical Context
+
+*I'm saying this because I know it's not.* There is more information available today to the Bible scholar than it was during Paul's time. It's difficult for some people to. Because they've idolized that history, but it's tough for them. There is more. It's like saying that now, *don't forget that we're not talking about revelation knowledge here. That's not what we're dealing with.* But the grammatical, historical context of. Is about research. You cannot say that the research of AD 60 is much more thorough than the one we do now. That's being drunk. It's not possible. So there are obviously things available to us today about that history, because history is about research. It's not about. You can. You can be. *I'll give you an instance now.* Something could have happened in 2020. 2020. Right. That it's in 2050. That there will be adequate information about it.
+
+Are you following what I'm saying here? So saying that, "No, no, just dismiss all that," it's a joke. That is why our work, like a professor will say our attempt is to read the text. Don't read it through the eyes of any interpreter. The text itself. If the text is Hebrew, find the Hebrew meaning. If the text, don't find the meaning said by the Pentecostals or the Pentecostal fathers. And just about. We'll see that in the second session. We. We have what is called the Reformation era, which is largely the contributor of recent or more evangelical beliefs. Reformation era, the Luther Calvin approach to Bible study. Lovely people, lovely. But we cannot restrict ourselves to what they interpreted because as we have seen over the years, they've largely removed the supernatural world context of the Bible, almost reduced it to.
+
+These are just, *you know*, natural phenomena. But the Bible is not. So. So what I just read now, it's asserted. If it's well asserted, it will revolutionize Bible translations generally the same way the Monogenese did. And a couple of other things. *You know, today people are now, we see the second session. People are now questioning the Rapture theology. And some people are upset that why should you.* They don't even know that it has a history that the early church did not even think about. That the nation of Israel that had the first oracle did not even think about that. So where did it come from? Just like the concept of sovereignty, one who does things the way he does. It's a recent phenomenon. It's not in the mind of the biblical author.
+
+## Challenging Predestination in Hebrew Culture
+
+When you read the Hebrew the pre determination is something that doesn't exist in the Hebrew culture. Where you predetermine things from the it has to go this way. The Hebrew culture allows permissiveness in their language. The Hebrew culture allows repentance, change of mind, change of direction within the culture. There's nothing that is predetermined. And we did that study in our teachings on salvation earlier on we looked at it. So it doesn't exist there. If it doesn't exist there, where could you have found it? So the concept of predestination means you predetermined something. "You are going to go to hell when you were born, God knew." It's not in the Hebrew culture, it's not in the Hebrew language. It couldn't have been a translation of Scriptures. So like I said, this will revolutionize Bible transitions generally. *And somebody asked me a question last week.*
+
+## The Significance of Bible Translations
+
+"How important are Bible transitions?" They are so important that they actually interpret scriptures for you. So one has to be and don't like fanciful translations. There's nothing it will help you because you like the way they use their words. No. Look for the translation that is closest to the original language. Now let me just add this. *I mentioned it last week.* We've already said, okay, that was so great salvation that the New Testament writer, did he use non biblical sources? We said yes. Now look at John 1:1.
+
+> **John 1:1**
+> In the beginning was the word. The word was with God and the word was God.
+
+Now John applies the term Logos, a phrase brought about by a man called Heraclitus Logos. In the beginning was the word. Now when you go to Genesis 1:1, you say,
+
+> **Genesis 1:1**
+> In the beginning God created the heavens and the earth.
+
+## Logos and Memra: The Aramaic Targum Connection
+
+So how did John use Logos here? Now we have said that at the time of Jesus there was something called a tagum T a r G u m. So again the Targum is an is a translation, same way that we have the Septuagint translations. Now the Targum uses what is called the Aramaic language and it uses the phrase memra M e m r a. Related to the Hebrew word pronounced as Amar a m a I r which means decree, word, speech or a theme or an issue. So by the time of Jesus, the four gospels, I meant memra was now their interpretation of the phrase Word of the Lord. So they had personalized the Torah as summarizing God, call it an alias. So the Targum is an Aramaic translation obviously used by Jesus.
+
+*I think we mentioned a bit of that when he says that* "not my will, but your will be done. You just come and pass over me." And the English translations made it appear like Jesus didn't want to go and die. That would be very funny, *you know*, but if you just look at the translations used of the Aramaic, it will be clearer. We cannot but be very faithful with the language. We have to be faithful with the language. So in the tagum in the beginning was the word, right, the tagum. *I mentioned that last week*, the tagum Neophyti who says, "in the beginning with wisdom." That is a translation, the beginning with wisdom. The memora of the Lord created and perfected the heavens and the earth. This is the tagum, a material available in time of Jesus and John.
+
+And it says, and the memra of the Lord said, "let there be light." And there was light by him, his membrane. So membra is used for what God is saying and doing, A part of God that is visible and active. Memra. Genesis 2, 3.
+
+> **Genesis 2:3**
+> On the seventh day, the Memra of the Lord completed his work, which he had created, and there was Saba.
+
+That's the tag of them. So what John has done is to take that memor. And he knows that the Greek also have the Logos concept that deals with a theme, an issue, a speech, a whole essence of a study. So he connects the memra with the Logos. So what I will say that John was saying in John 1:1 is "in the beginning was the memra, and the memra was with God, and memra was God."
+
+"It was in the beginning with God, all things came into being through Him. Without him was there anything made that was made." So if the word memra is personalized as the visibilities of God, the things he's saying and doing that were all obvious, it means John used the tag of that translation to write. So no doubt the New Testament writer used to uses translations that are familiar with his audience or makes a very good connection. So the phrase word of the Lord was now connected to Jesus, the word of the Lord, just the same way New Testament writers connected angel of the Lord to Jesus, they made that connection to Jesus. Malachi is when God is on the mission himself, the visible, the visible God says, and that word became flesh and dwelt amongst us. John 1:14.
+
+> **John 1:14**
+> And that word became flesh and dwelt amongst us.
+
+So John is not inventing anything by using logos, rather applying the word of the Lord concept of the Old Testament called the Aramite trance. The Targum is the membrane where the Targum. What the Targum did was that many instances. *Let me just mention this very quickly*, where the acts of God were visible. He uses memra. So the Jewish audience understood that there was a visible God, or there was God who was visible to people whose acts, speech, deeds were perceivable. And the Targums called it the Membra of the Lord. The Hebrew has the word Daba, no doubt, and Membra, all explaining, *you know*, the acts, things, issues, events around God. So the concept of Trinity is not foreign to the Old Testament. It's not. That is one that was seen, one that wasn't seen at all.
+
+## Cultural Context in the Old Testament
+
+So in the time of Jesus, we therefore will be forced, not forced, compelled to, when we read the stories, to read the translations they also used. At that time, they had translated the Hebrew into Aramaic. They used Hebrew, the Aramaic and the Greek, and they saw instances, even the Latin. So that in itself is a context of the events that we read within the Old Testament. We're going to see something in the second session. *I hope I have time to get into all the details.* But fundamentally, in our reading the Old Testament, because of the distance or the time, we have to be very delicate. So we do not misinterpret the terms. Now, I'll mention one thing, and that is, it's therefore not strange to us when we read the Old Testament to see what we call today traditional worship practices right in Scripture.
+
+It is actually the cultural context of what is being said. It is not theology. The fact that God. Look at the Urim and Turim. Urim and Turim is what we call. We've done this instance already, what we call the opele ifa. It's what it is. Now, is that an endorsement of the traditional mode of worship? No, it's a use of the practice without theology. Which means that rather than use it. *This is how it sounds.* Rather than use this for xyz, God, use it for Yahweh. This is what is called the Old Testament. That's why when Paul got to the Gentile world. *Listen to what I'm about to say.* When Paul got to the Gentile world and there was now the fight over circumcision, This is. You are not. God did not try to make every Jew, every Gentile a Jew.
+
+## Paul and the Gentile World
+
+Paul didn't speak against circumcision. That's not what he was talking about using circumcision as that identification marker is no longer the marker, because that is for the Jewish nation. And it's not even peculiar to the Hebrew Jew. I mean, to the Jew, because it was a known practice in their world. There is arguably no ceremonies. All the ceremonies, whether you look at the Passover washings, they are within the cultural context. So that is not a new ceremony. It is now applied to God. So Paul is saying here, these are Gentiles, right? And except we want to make them Jews, we have to understand that these circumcision of the heart, same way that he said that we are that unleavened bread. 1 Corinthians 5, 7, 8.
+
+> **1 Corinthians 5:7-8**
+> We are that unleavened bread.
+
+And Paul did explain that our baptism is by the Holy Ghost.
