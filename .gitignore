@@ -1,0 +1,15 @@
+# Microsoft Word temporary lock files
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary editor / swap files
+*.tmp
+*.bak
+*~
