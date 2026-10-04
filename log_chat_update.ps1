@@ -28,7 +28,7 @@ if (Test-Path $LogFile) {
     Write-Host "--- RECENT UPDATES ON THIS FOLDER ---" -ForegroundColor DarkGray
     $lines = Get-Content -Path $LogFile -Encoding UTF8
     $recent = $lines | Select-Object -Last 20
-    Write-Host ($recent -join "`n") -ForegroundColor Gray
+    Write-Host ($recent -join [Environment]::NewLine) -ForegroundColor Gray
     Write-Host "-------------------------------------" -ForegroundColor DarkGray
     Write-Host ""
 }
@@ -47,40 +47,54 @@ if (-not $NonInteractive) {
 if ([string]::IsNullOrWhiteSpace($Topic)) {
     $Topic = "Folder progress and transcript review"
 }
+if ([string]::IsNullOrWhiteSpace($Notes)) {
+    $Notes = "Progress update on folder activities."
+}
 
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
 
 # Detect changed files in repo
 git update-index --refresh 2>$null | Out-Null
-$changedFiles = git status --porcelain | ForEach-Object {
-    $_.Substring(3).Trim('"')
+$statusLines = git status --porcelain
+$changedFiles = @()
+if ($statusLines) {
+    foreach ($line in $statusLines) {
+        if ($line.Length -gt 3) {
+            $changedFiles += $line.Substring(3).Trim('"')
+        }
+    }
 }
 
 $filesSummary = ""
-if ($changedFiles -and $changedFiles.Count -gt 0) {
-    $filesSummary = "`n- **Files Modified / Added:**`n" + (($changedFiles | Select-Object -First 10 | ForEach-Object { "  - `$_`" }) -join "`n")
+if ($changedFiles.Count -gt 0) {
+    $formattedList = @()
+    $takeCount = [Math]::Min($changedFiles.Count, 10)
+    for ($i = 0; $i -lt $takeCount; $i++) {
+        $formattedList += "  - ``$($changedFiles[$i])``"
+    }
+    $filesSummary = [Environment]::NewLine + "- **Files Modified / Added:**" + [Environment]::NewLine + ($formattedList -join [Environment]::NewLine)
     if ($changedFiles.Count -gt 10) {
         $extra = $changedFiles.Count - 10
-        $filesSummary += "`n  - ... and $extra more file(s)"
+        $filesSummary += [Environment]::NewLine + "  - ... and $extra more file(s)"
     }
 } else {
-    $filesSummary = "`n- **Files Modified / Added:** None (Chat / Log update only)"
+    $filesSummary = [Environment]::NewLine + "- **Files Modified / Added:** None (Chat / Log update only)"
 }
 
 # Format log entry
-$newEntry = @"
-
-### [$timestamp] - $Topic
-- **Date & Time:** $timestamp
-- **Chat / Discussion Notes:** $(if ($Notes) { $Notes } else { "Progress update on folder activities." })
-$filesSummary
-- **Status:** Synced with GitHub
-
----
-"@
+$entryLines = @(
+    "",
+    "### [$timestamp] - $Topic",
+    "- **Date & Time:** $timestamp",
+    "- **Chat / Discussion Notes:** $Notes$filesSummary",
+    "- **Status:** Synced with GitHub",
+    "",
+    "---"
+)
+$newEntryText = $entryLines -join [Environment]::NewLine
 
 # Append to CHAT_AND_UPDATES_LOG.md
-Add-Content -Path $LogFile -Value $newEntry -Encoding UTF8
+Add-Content -Path $LogFile -Value $newEntryText -Encoding UTF8
 Write-Host "[$timestamp] Added entry to CHAT_AND_UPDATES_LOG.md" -ForegroundColor Green
 
 # Ensure Git longpaths
@@ -92,7 +106,8 @@ git add -A
 
 $commitMsg = "Chat/Update: $Topic ($timestamp)"
 Write-Host "[$timestamp] Committing: '$commitMsg'..." -ForegroundColor Cyan
-git commit -m "$commitMsg" 2>&1 | Write-Host -ForegroundColor Gray
+$commitOutput = git commit -m "$commitMsg" 2>&1
+Write-Host $commitOutput -ForegroundColor Gray
 
 Write-Host "[$timestamp] Pulling remote updates with rebase..." -ForegroundColor Yellow
 git fetch origin main 2>$null | Out-Null
