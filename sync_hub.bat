@@ -15,10 +15,11 @@ echo  [3] LOG CHAT/UPDATE: Add chat notes or progress update and sync to GitHub
 echo  [4] AUTO-WATCHER: Start continuous background auto-sync (every 2 mins)
 echo  [5] VIEW LOG: View recent Chat and Progress Updates log
 echo  [6] STATUS: Check current Git status and branch info
+echo  [7] CONVERT MD TO DOCX: Convert Markdown documents to Word .docx
 echo  [0] EXIT
 echo.
 echo =====================================================================
-set /p choice="Enter your choice (0-6): "
+set /p choice="Enter your choice (0-7): "
 
 if "%choice%"=="1" goto sync_push
 if "%choice%"=="2" goto pull_repo
@@ -26,6 +27,7 @@ if "%choice%"=="3" goto log_chat
 if "%choice%"=="4" goto auto_watcher
 if "%choice%"=="5" goto view_log
 if "%choice%"=="6" goto git_status
+if "%choice%"=="7" goto convert_docx
 if "%choice%"=="0" goto end
 
 echo Invalid option, please try again.
@@ -84,6 +86,12 @@ echo.
 echo Remote info:
 git remote -v
 pause
+goto menu
+
+:convert_docx
+cls
+echo [Running: Convert Markdown to DOCX]
+call "%~dp0convert_md_to_docx.bat"
 goto menu
 
 :end

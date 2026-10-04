@@ -29,8 +29,18 @@ All scripts are pre-configured to handle long filenames on Windows (`core.longpa
   - Pulls down new commits and files from GitHub.
   - Displays the latest commit info and confirms everything is up to date.
 
-### 4. `sync_hub.bat`
-- **Master Control Center:** Double-click `sync_hub.bat` to open an interactive menu with numbers `[1]` to `[6]` allowing you to push, pull, log chats, view logs, or start the watcher in one click.
+### 4. `convert_md_to_docx.py` & `convert_md_to_docx.bat`
+- **Purpose:** Converts Markdown (`.md`) files to Word (`.docx`) documents locally.
+- **Features:**
+  - Preserves hierarchical headings (`#`, `##`, `###`), bold, italics, bullet lists, numbered lists, blockquotes, scripture verse references, and tables.
+  - Tailored styling for theological transcripts, sermon series, and study materials.
+  - **Drag-and-Drop:** Drag any `.md` file onto `convert_md_to_docx.bat` in Windows Explorer to convert it instantly.
+  - **Double-Click Menu:** Double-click `convert_md_to_docx.bat` with no files to open an interactive menu (convert single file, convert folder, or convert entire workspace).
+  - **Python CLI:** `python convert_md_to_docx.py input.md -o output.docx` or `python convert_md_to_docx.py --all`.
+  - **Built-in Fallback:** Includes a native Windows engine so it works immediately even before Python dependencies are installed.
+
+### 5. `sync_hub.bat`
+- **Master Control Center:** Double-click `sync_hub.bat` to open an interactive menu with options `[1]` to `[7]` allowing you to push, pull, log chats, view logs, start the watcher, or convert Markdown to Word in one click.
 
 ---
 
@@ -38,6 +48,9 @@ All scripts are pre-configured to handle long filenames on Windows (`core.longpa
 
 | File | Type | What it does |
 |------|------|--------------|
+| `convert_md_to_docx.py` | Python script | Converts Markdown (.md) to Word (.docx) locally |
+| `convert_md_to_docx.bat` | Batch script | 1-click or drag-and-drop Markdown to DOCX converter |
+| `convert_md_to_docx.ps1` | PowerShell | Native Windows Markdown to DOCX converter (0 dependencies) |
 | `auto_sync_push.bat` | Batch script | 1-click Push all changes to GitHub |
 | `auto_sync_watcher.bat` | Batch script | Runs in background; pushes changes every 2 minutes |
 | `log_chat_update.bat` | Batch script | Prompts for chat/update notes, logs to `CHAT_AND_UPDATES_LOG.md`, and pushes to GitHub |
