@@ -82,4 +82,21 @@ Every update logged here is automatically synchronized directly to the GitHub re
   - `CHAT_AND_UPDATES_LOG.md`
 - **Status:** Synced with GitHub
 
+### [2026-10-09 15:35:00] - Documented Repeatable Study Group SOP & Consolidated Pipeline
+- **Date & Time:** 2026-10-09 15:35:00
+- **Chat / Discussion Notes:** Documented the definitive end-to-end Study Group Workflow and SOP in `Study group/STUDY_GROUP_WORKFLOW_AND_GUIDELINES.md`. Outlined the two-phase pipeline: Phase 1 (Refined Claude Standard for transcript formatting: 100% theological preservation, oral smoothing, pronoun harmonization, speaker-grounded subheadings, Letter page geometry, Arial 12pt, customized scripture indentations) and Phase 2 (KeyIndicators KPI Standard for answering study questions: Introduction, thematic Body subheadings, Greek/Hebrew exegetical precision, practical ministerial applications, and Conclusion). Consolidated all assets, templates, scripts (`study_group_engine.py`), and 1-click batch runner (`run_study_group_pipeline.bat`) under `Study group/`.
+- **Files Modified / Added:**
+  - `Study group/STUDY_GROUP_WORKFLOW_AND_GUIDELINES.md`
+  - `Study group/study_group_engine.py`
+  - `Study group/run_study_group_pipeline.bat`
+  - `Study group/README.md`
+  - `Study group/Oct_Conf_Formatted.docx`
+  - `Study group/Oct_Conf_Formatted.md`
+  - `Study group/Cell_Leaders_Conference_How_Leadership_Changes_You.docx`
+  - `Study group/Cell_Leaders_Conference_How_Leadership_Changes_You.md`
+  - `Study group/Cell_Leaders_Conference_How_Leadership_Changes_You_StudyGroup_Answers.docx`
+  - `Study group/Cell_Leaders_Conference_How_Leadership_Changes_You_StudyGroup_Answers.md`
+  - `CHAT_AND_UPDATES_LOG.md`
+- **Status:** Synced with GitHub
+
 ---
