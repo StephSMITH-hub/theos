@@ -100,3 +100,14 @@ Every update logged here is automatically synchronized directly to the GitHub re
 - **Status:** Synced with GitHub
 
 ---
+
+### [2026-10-19 11:10:00] - Two Kinds of Righteousness: Guide Markdown Conversion & Corpus Progress Audit
+- **Date & Time:** 2026-10-19 11:10:00
+- **Chat / Discussion Notes:** Audited the entire Two Kinds of Righteousness corpus across all series (186 total raw tracks, 186 formatted DOCX files, 164 formatted MD files, totaling ~2,089,142 words). Converted the master "Two Kinds of Righteousness Transcript Formatting Guide.docx" into clean, accessible Markdown documents in both the root workspace and the transcript subfolder for immediate accessibility.
+- **Files Modified / Added:**
+  - `Two Kinds of Righteousness Transcript Formatting Guide.md`
+  - `Two Kinds of Righteousness Transcript/Two Kinds of Righteousness Transcript Formatting Guide.md`
+  - `CHAT_AND_UPDATES_LOG.md`
+- **Status:** Complete & Ready to Sync with GitHub
+
+---
