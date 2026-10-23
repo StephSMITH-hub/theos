@@ -19,7 +19,7 @@ This directory hosts the complete study group materials, formatted transcripts, 
 | [`Cell_Leaders_Conference_How_Leadership_Changes_You.md`](Cell_Leaders_Conference_How_Leadership_Changes_You.md) | **Full Named Conference Document** | Markdown |
 | [`Cell_Leaders_Conference_Faithfulness_in_Stewardship.docx`](Cell_Leaders_Conference_Faithfulness_in_Stewardship.docx) | **Refined Conference Transcript** (Faithfulness in Stewardship, 4,743 words) | Word (.docx) |
 | [`Cell_Leaders_Conference_Faithfulness_in_Stewardship.md`](Cell_Leaders_Conference_Faithfulness_in_Stewardship.md) | **Refined Conference Transcript** (Source Markdown) | Markdown |
-| [`Cell_Leaders_Conference_Faithfulness_in_Ministry_StudyGroup_Answers.docx`](Cell_Leaders_Conference_Faithfulness_in_Ministry_StudyGroup_Answers.docx) | **Study Group Answers** (19th – 25th Oct 2026, 5,367 words) | Word (.docx) |
+| [`Cell_Leaders_Conference_Faithfulness_in_Ministry_StudyGroup_Answers.docx`](Cell_Leaders_Conference_Faithfulness_in_Ministry_StudyGroup_Answers.docx) | **Study Group Answers** (19th – 25th Oct 2026, 6,482 words) | Word (.docx) |
 | [`Cell_Leaders_Conference_Faithfulness_in_Ministry_StudyGroup_Answers.md`](Cell_Leaders_Conference_Faithfulness_in_Ministry_StudyGroup_Answers.md) | **Study Group Answers** (Source Markdown) | Markdown |
 
 ---
