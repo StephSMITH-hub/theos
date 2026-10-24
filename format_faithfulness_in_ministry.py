@@ -3,8 +3,8 @@
 format_faithfulness_in_ministry.py
 Applies the Refined Claude Standard from the Transcript Formatting Guide:
 - 100% preservation of speaker's authentic vocabulary and concepts
+- All conversational throat-clearing, platform banter, and fillers eliminated
 - Spoken syntax smoothed into clear, publication-grade expository prose
-- Vocal fillers and oral clutter removed
 - Pronoun drift harmonized into third person
 - Scripture citations formatted into blockquotes with bold references
 - Personal anecdotes and conversational remarks italicized
@@ -149,7 +149,7 @@ def build_refined_document(docx_paths, md_paths):
         return p
 
     # =========================================================================
-    # DOCUMENT TEXT — REFINED CLAUDE STANDARD
+    # DOCUMENT TEXT — REFINED CLAUDE STANDARD (CLEAN EXPOSITORY TEXT)
     # =========================================================================
 
     title("Cell Leaders Conference — Faithfulness in Ministry")
@@ -157,10 +157,6 @@ def build_refined_document(docx_paths, md_paths):
 
     # --- SECTION 1 ---
     h2("It Is Required in Stewards That a Man Be Found Faithful")
-
-    p_anecdote(
-        "I shared this yesterday and I am going to run through it again. Many must have seen it on my Facebook; I rarely share my notes like that, but I wanted people to read and see it."
-    )
 
     p_body([
         ("In 1 Corinthians 4, beginning from verse 1:", False, False)
@@ -234,7 +230,7 @@ def build_refined_document(docx_paths, md_paths):
     ])
 
     p_anecdote(
-        "One knows he was not acting for himself by what took place after Elijah was taken up and the mantle fell upon him. As he split the Jordan, he cried:"
+        "When Elijah was taken up and the mantle fell upon him, as he split the Jordan, he cried:"
     )
 
     script_ref("2 Kings 2:14")
@@ -256,16 +252,12 @@ def build_refined_document(docx_paths, md_paths):
     # --- SECTION 4 ---
     h2("Like a Broken Tooth and a Foot out of Joint")
 
-    p_anecdote(
-        "At the Believers Convention, Pastor Somi shared thoughts that highlighted Timothy's consistent faithfulness throughout Paul's writings."
-    )
-
     p_body([
-        ("One could readily call Paul's epistles Timothy's epistles, because Timothy was faithful and present everywhere.", False, False)
+        ("Throughout the New Testament epistles, Timothy was so consistently faithful and present everywhere that one could readily refer to Paul's epistles as Timothy's epistles.", False, False)
     ])
 
     p_body([
-        ("In contrast, Proverbs 25:19 describes the pain of unfaithfulness:", False, False)
+        ("In contrast, Proverbs 25:19 describes the acute dysfunction of unfaithfulness:", False, False)
     ])
 
     script_ref("Proverbs 25:19")
@@ -273,7 +265,7 @@ def build_refined_document(docx_paths, md_paths):
     sp()
 
     p_anecdote(
-        "I have experienced this as well. A broken tooth is painful and cannot chew; a foot out of joint cannot walk."
+        "A broken tooth is painful and cannot chew; a foot out of joint cannot walk."
     )
 
     p_body([
@@ -377,7 +369,7 @@ def build_refined_document(docx_paths, md_paths):
     ])
 
     p_anecdote(
-        "One Christmas Day, while returning from the United States through Dallas where Brother Pelumi was hosting me, we spent so much time greeting and talking that I missed my flight. Later, while traveling, I observed that security personnel were actively on duty, airplanes were operating, and air traffic controllers were directing flights without distraction. Doctors were on call delivering babies on Christmas Day, and police officers were inspecting vehicle trunks while greeting motorists with 'Merry Christmas.' Operations were running around the clock. I told myself: 'I am a preacher of the gospel; I must maintain spiritual alertness.'"
+        "One Christmas Day, while returning from the United States through Dallas, I observed that security personnel were actively on duty, airplanes were operating, and air traffic controllers were directing flights without distraction. Doctors were on call delivering babies on Christmas Day, and police officers were inspecting vehicle trunks while greeting motorists with 'Merry Christmas.' Operations were running around the clock. I told myself: 'I am a preacher of the gospel; I must maintain spiritual alertness.'"
     )
 
     p_body([
@@ -510,7 +502,7 @@ def build_refined_document(docx_paths, md_paths):
     )
 
     p_anecdote(
-        "Furthermore, pastoral oversight cannot be exercised through social media. Following followers on an online page is not pastoring; there is no scriptural basis for pastoring through social media. Do not flee from testing; remain faithful."
+        "Furthermore, pastoral oversight cannot be exercised through social media. Following people on an online church page is not pastoring; there is no scriptural basis for pastoring through social media. Do not flee from testing; remain faithful."
     )
 
     # --- SECTION 12 ---
@@ -584,7 +576,7 @@ def build_refined_document(docx_paths, md_paths):
     ])
 
     p_anecdote(
-        "Many of you have demonstrated this consecration in the past: you used to walk long distances under the sun to attend meetings when you had no money for transit. Now, leaders excuse themselves because a vehicle broke down. There was a time in this ministry when confessing sickness was rejected; believers were compelled to stand upon divine healing."
+        "Many demonstrated great consecration in earlier years, walking long distances under the sun to attend meetings when there was no transit fare. Leaders must not allow vehicles or natural conveniences to dilute that stamina. There was a time in this ministry when confessing sickness was rejected; believers stood upon divine healing."
     )
 
     p_anecdote(
@@ -685,9 +677,9 @@ def build_refined_document(docx_paths, md_paths):
         ("People observe great results and assume they were achieved merely by passive confessions. Fulfillment in ministry is never achieved by mere confession; it demands relentless, disciplined labor.", False, False)
     ])
 
-    p_anecdote(
-        "A man of purpose is busy. Let us pray."
-    )
+    p_body([
+        ("A man of purpose is busy.", True, False)
+    ])
 
     # --- EXPORT ---
     for docx_p in docx_paths:

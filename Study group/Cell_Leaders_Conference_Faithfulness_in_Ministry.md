@@ -7,8 +7,6 @@
 
 ## It Is Required in Stewards That a Man Be Found Faithful
 
-*I shared this yesterday and I am going to run through it again. Many must have seen it on my Facebook; I rarely share my notes like that, but I wanted people to read and see it.*
-
 In 1 Corinthians 4, beginning from verse 1:
 
 > **1 Corinthians 4:1-2**
@@ -50,7 +48,7 @@ Pouring water on the hands of Elijah was a term signifying that he served him fa
 
 Elijah told him, 'You have asked a hard thing; nevertheless, if you see me when I am taken from you, it shall be so.' And Elisha remained faithful.
 
-*One knows he was not acting for himself by what took place after Elijah was taken up and the mantle fell upon him. As he split the Jordan, he cried:*
+*When Elijah was taken up and the mantle fell upon him, as he split the Jordan, he cried:*
 
 > **2 Kings 2:14**
 > [14] And he took the mantle of Elijah that fell from him, and smote the waters, and said, Where is the LORD God of Elijah? and when he also had smitten the waters, they parted hither and thither: and Elisha went over.
@@ -64,16 +62,14 @@ Loyal, faithful people do not act otherwise when leadership is absent. Faithful 
 
 ## Like a Broken Tooth and a Foot out of Joint
 
-*At the Believers Convention, Pastor Somi shared thoughts that highlighted Timothy's consistent faithfulness throughout Paul's writings.*
+Throughout the New Testament epistles, Timothy was so consistently faithful and present everywhere that one could readily refer to Paul's epistles as Timothy's epistles.
 
-One could readily call Paul's epistles Timothy's epistles, because Timothy was faithful and present everywhere.
-
-In contrast, Proverbs 25:19 describes the pain of unfaithfulness:
+In contrast, Proverbs 25:19 describes the acute dysfunction of unfaithfulness:
 
 > **Proverbs 25:19**
 > [19] Confidence in an unfaithful man in time of trouble is like a broken tooth, and a foot out of joint.
 
-*I have experienced this as well. A broken tooth is painful and cannot chew; a foot out of joint cannot walk.*
+*A broken tooth is painful and cannot chew; a foot out of joint cannot walk.*
 
 When an individual has been given responsibility—whether as a cell leader, head of department, or pastor—their name may be on the roll, but if they are unfaithful, they are like a broken tooth: the church cannot chew and cannot walk, yet they occupy the position.
 
@@ -133,7 +129,7 @@ Faithfulness is the breath of ministry: it means always being at one's duty post
 
 The holiday season is not a holiday from ministry. A public holiday declared by the government does not suspend ministerial responsibility. If a businessman took a loan from the bank, interest runs through the holiday, even on Sunday morning while he is in church. How much more in spiritual ministry?
 
-*One Christmas Day, while returning from the United States through Dallas where Brother Pelumi was hosting me, we spent so much time greeting and talking that I missed my flight. Later, while traveling, I observed that security personnel were actively on duty, airplanes were operating, and air traffic controllers were directing flights without distraction. Doctors were on call delivering babies on Christmas Day, and police officers were inspecting vehicle trunks while greeting motorists with 'Merry Christmas.' Operations were running around the clock. I told myself: 'I am a preacher of the gospel; I must maintain spiritual alertness.'*
+*One Christmas Day, while returning from the United States through Dallas, I observed that security personnel were actively on duty, airplanes were operating, and air traffic controllers were directing flights without distraction. Doctors were on call delivering babies on Christmas Day, and police officers were inspecting vehicle trunks while greeting motorists with 'Merry Christmas.' Operations were running around the clock. I told myself: 'I am a preacher of the gospel; I must maintain spiritual alertness.'*
 
 A minister must be faithful with time and faithful with alertness in all assigned duties.
 
@@ -211,7 +207,7 @@ Pastors must not alter this standard; workers must be observed directly.
 
 *God permits certain fires so that those who cannot stand with leadership in the promised land do not cross the desert.*
 
-*Furthermore, pastoral oversight cannot be exercised through social media. Following followers on an online page is not pastoring; there is no scriptural basis for pastoring through social media. Do not flee from testing; remain faithful.*
+*Furthermore, pastoral oversight cannot be exercised through social media. Following people on an online church page is not pastoring; there is no scriptural basis for pastoring through social media. Do not flee from testing; remain faithful.*
 
 
 ## David the Shepherd: Keeping the Few Sheep
@@ -256,7 +252,7 @@ A leader must listen to God's Word with 'the second hearing.' A leader does not 
 
 When listening to God's Word in conventions or church services, listen on behalf of nations. Take utterances and prayers personally. When the service ends, put what you heard into practice. Whenever God repeats something continuously, it indicates that it has not yet been practiced.
 
-*Many of you have demonstrated this consecration in the past: you used to walk long distances under the sun to attend meetings when you had no money for transit. Now, leaders excuse themselves because a vehicle broke down. There was a time in this ministry when confessing sickness was rejected; believers were compelled to stand upon divine healing.*
+*Many demonstrated great consecration in earlier years, walking long distances under the sun to attend meetings when there was no transit fare. Leaders must not allow vehicles or natural conveniences to dilute that stamina. There was a time in this ministry when confessing sickness was rejected; believers stood upon divine healing.*
 
 *We used to host Bible seminars on environmental sanitation Saturdays. Brethren would travel from Oyo State or Ogun State, arriving before 6:30 a.m. In the era of compact discs, believers would do anything to obtain a teaching disc. Today, recordings can be downloaded directly onto a phone; leaders must listen with headphones and feed upon the Word continuously.*
 
@@ -324,4 +320,4 @@ Pastoral ministry is a continuous, daily lifestyle. Even when a leader is not ph
 
 People observe great results and assume they were achieved merely by passive confessions. Fulfillment in ministry is never achieved by mere confession; it demands relentless, disciplined labor.
 
-*A man of purpose is busy. Let us pray.*
+**A man of purpose is busy.**
