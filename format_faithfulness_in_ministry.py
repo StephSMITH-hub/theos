@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
 """
 format_faithfulness_in_ministry.py
-Transforms the raw Fireflies transcript into a publication-grade document
-following the Two Kinds of Righteousness Transcript Formatting Guide
-(The Refined Claude Standard).
+Rebuilds Cell_Leaders_Conference_Faithfulness_in_Ministry.docx and .md
+using ONLY the speaker's original words, preserving 100% of the authentic
+teaching voice and vocabulary according to the Transcript Formatting Guide.
 """
 
-import os
 from pathlib import Path
 from docx import Document
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 
-def build_faithfulness_document(docx_paths, md_paths):
+def build_verbatim_document(docx_paths, md_paths):
     doc = Document()
 
     # Page setup: Standard Letter (8.5" x 11.0"), 1.0" margins
@@ -24,12 +23,12 @@ def build_faithfulness_document(docx_paths, md_paths):
         section.left_margin = Inches(1.0)
         section.right_margin = Inches(1.0)
 
-    # Base style
+    # Base Normal Style
     style = doc.styles['Normal']
     font = style.font
     font.name = 'Arial'
     font.size = Pt(12)
-    font.color.rgb = RGBColor(0x11, 0x18, 0x27) # Dark neutral
+    font.color.rgb = RGBColor(0x11, 0x18, 0x27)
 
     md_lines = []
 
@@ -67,6 +66,17 @@ def build_faithfulness_document(docx_paths, md_paths):
         md_lines.append(f"\n## {text}\n")
         return p
 
+    def h3(text):
+        p = doc.add_paragraph()
+        p.paragraph_format.space_before = Pt(10)
+        p.paragraph_format.space_after = Pt(3)
+        run = p.add_run(text)
+        run.bold = True
+        run.font.name = 'Arial'
+        run.font.size = Pt(12)
+        md_lines.append(f"\n### {text}\n")
+        return p
+
     def script_ref(ref_str):
         p = doc.add_paragraph()
         p.paragraph_format.space_before = Pt(8)
@@ -93,7 +103,6 @@ def build_faithfulness_document(docx_paths, md_paths):
         return p
 
     def sp():
-        # Space between blockquote and following text
         md_lines.append("")
 
     def p_body(runs):
@@ -114,7 +123,6 @@ def build_faithfulness_document(docx_paths, md_paths):
             if italic:
                 run.italic = True
 
-            # Markdown conversion
             if bold and italic:
                 md_str += f"***{text}***"
             elif bold:
@@ -127,7 +135,7 @@ def build_faithfulness_document(docx_paths, md_paths):
         return p
 
     def p_anecdote(text):
-        """Pure italic anecdote paragraph."""
+        """Italic anecdote / illustration / conversational aside."""
         p = doc.add_paragraph()
         p.paragraph_format.space_before = Pt(4)
         p.paragraph_format.space_after = Pt(4)
@@ -140,16 +148,22 @@ def build_faithfulness_document(docx_paths, md_paths):
         return p
 
     # =========================================================================
-    # DOCUMENT ASSEMBLY (Refined Claude Standard)
+    # DOCUMENT TEXT — 100% ORIGINAL SPEAKER'S WORDS
     # =========================================================================
 
     title("Cell Leaders Conference — Faithfulness in Ministry")
-    subtitle("December 2021 — Expository Teaching on Stewardship, Proven Character, and Pastoral Oversight")
+    subtitle("December 2021 — Teaching by Pastor Segun Ayodele")
 
-    # -------------------------------------------------------------------------
-    # SECTION 1
-    # -------------------------------------------------------------------------
-    h2("The Requirement of a Steward: Faithfulness, Reliability, and 100% Commitment to the Cause")
+    # --- SECTION 1 ---
+    h2("It Is Required in Stewards That a Man Be Found Faithful")
+
+    p_anecdote(
+        "First Corinthians 4. I shared this yesterday and I am just going to run through it again. I know you must have seen it on my Facebook, and I rarely share my notes like that, but I just wanted people to read it and see it."
+    )
+
+    p_body([
+        ("First Corinthians 4:2, starting from verse 1:", False, False)
+    ])
 
     script_ref("1 Corinthians 4:1-2")
     script_verse("[1] Let a man so account of us, as of the ministers of Christ, and stewards of the mysteries of God.")
@@ -157,15 +171,13 @@ def build_faithfulness_document(docx_paths, md_paths):
     sp()
 
     p_body([
-        ("In ", False, False),
-        ("1 Corinthians 4:1-2", True, False),
-        (", the Apostle Paul defines the governing baseline of Christian ministerial service. A Christian worker is not to be accounted by worldly titles, public acclaim, or social visibility, but as a minister of Christ and a steward of the mysteries of God. Paul declares the singular, non-negotiable requirement laid upon every steward: ", False, False),
-        ("moreover it is required in stewards, that a man be found faithful", True, False),
-        (". The word translated 'faithful' is the very same Greek word for faith, ", False, False),
+        ("That a man be found faithful. The word faithful is the same word for faith, ", False, False),
         ("pistos", True, True),
-        (", derived from the verb ", False, False),
-        ("pisteuo", True, True),
-        (". It denotes utter reliability, dependability, and steadfast trustworthiness under every condition.", False, False)
+        (". It means to be reliable, to be trustworthy, faithful.", False, False)
+    ])
+
+    p_body([
+        ("Now, we often say God is faithful. First Corinthians chapter 10 verse 13 says God is faithful:", False, False)
     ])
 
     script_ref("1 Corinthians 10:13")
@@ -173,191 +185,231 @@ def build_faithfulness_document(docx_paths, md_paths):
     sp()
 
     p_body([
-        ("Believers frequently declare, 'God is faithful,' as affirmed in ", False, False),
-        ("1 Corinthians 10:13", True, False),
-        (". Why is God faithful? Because He is reliable, He is always available, and He never alters His word or reneges on His commitment in spite and despite opposing circumstances or extremities. Look at the intense pressure, hostility, and negativity God walked through leading up to the cross of Christ—yet He remained steadfast and never altered His word. That is why faithfulness is also called ", False, False),
-        ("loyalty", True, False),
-        (", and loyalty is defined as ", False, False),
-        ("being committed to a cause 100%", True, True),
-        (". When Paul asserts that it is required of a steward to be found faithful, he demands that every leader be found totally loyal to the assignment, the local church, and the spiritual oversight committed to their care.", False, False)
+        ("He is faithful. We say that. ", False, False),
+        ("You know why?", False, True),
+        (" Because He is reliable. What else? He is always available. He does not change His commitment. He does not change His word in spite and despite opposing circumstances. That is why faithfulness is also called loyalty, and loyalty means to be committed to a cause 100%—to be committed to a cause 100%.", False, False)
     ])
 
-    # -------------------------------------------------------------------------
-    # SECTION 2
-    # -------------------------------------------------------------------------
-    h2("Faithfulness vs. Ambition: Ruth and Naomi and the Diagnostic of Unfulfilled Desires")
+    p_body([
+        ("So Paul is saying it is required of a steward—a believer is a steward—that one be found loyal, loyal to what one is doing, to be faithful, to be found loyal.", False, False)
+    ])
 
-    script_ref("Ruth 1:16-17")
-    script_verse("[16] And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God:")
-    script_verse("[17] Where thou diest, will I die, and there will I be buried: the LORD do so to me, and more also, if ought but death part thee and me.")
+    # --- SECTION 2 ---
+    h2("Faithfulness vs. Ambition: Ruth and Naomi and the Test of Unfulfilled Desires")
+
+    p_body([
+        ("I look at Ruth and Naomi. When Ruth told Naomi:", False, False)
+    ])
+
+    script_ref("Ruth 1:16")
+    script_verse("[16] And Ruth said, Intreat me not to leave thee, or to return from following after thee: for whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God.")
     sp()
 
     p_body([
-        ("Consider the covenant loyalty between Ruth and Naomi in ", False, False),
-        ("Ruth 1", True, False),
-        (". Following the death of her husband and sons in Moab, Naomi urged her daughters-in-law to return to their maternal homes. Orpah kissed Naomi and departed, but Ruth clave unto her, uttering that monumental confession: ", False, False),
-        ("'Whither thou goest, I will go; and where thou lodgest, I will lodge: thy people shall be my people, and thy God my God.'", True, True),
-        (" Ruth was an alien Gentile entering Israel with zero guarantees of financial security, marriage, or social status. She was looking for absolutely nothing in return. That is the very definition of faithfulness.", False, False)
+        ("She was not looking for anything. That is faithfulness.", False, False)
     ])
 
     p_body([
-        ("There is a sharp, irreconcilable difference between ", False, False),
-        ("faithfulness and personal ambition", True, False),
-        (". The definitive spiritual diagnostic that distinguishes the two is this: ", False, False),
-        ("one discovers whether an individual is genuinely faithful or merely ambitious when their personal desires are delayed or denied", True, True),
-        (". There are individuals who join a local church or enter ministry specifically to climb ecclesiastical ladders, gain prominence, or be noticed by senior leadership. Such people put on an elaborate appearance of faithfulness, but the moment their personal expectations suffer the slightest alteration, correction, or delay, their posture changes immediately. That sudden shift unmasks their true motive: they were never faithful. True faithfulness has nothing to do with favorable circumstances; faithful men and women do not break under pressure, make no excuses, and remain one hundred percent committed to the cause.", False, False)
+        ("There is a difference between faithfulness and ambition. And one of the ways one knows whether they are faithful or just ambitious is if their desires are not given to them. There are people who join a church or join a place so that they can rise through the ranks. They will be acting faithful, but the way one will know that they are not: any little alteration, they will change. That means they were never faithful.", False, False)
     ])
 
-    # -------------------------------------------------------------------------
-    # SECTION 3
-    # -------------------------------------------------------------------------
-    h2("Wholehearted Servanthood: Elisha Pouring Water on Elijah's Hands and Wearing the Father's Ministry")
+    p_body([
+        ("So faithfulness has nothing to do with circumstances. God gave His word, but look at what He walked through before Christ died on the cross—it was a lot of negativities, extremities. Faithful men do not break under pressure. No, the faithful man is reliable, no excuses.", False, False)
+    ])
+
+    # --- SECTION 3 ---
+    h2("Serving with All the Heart: Elisha Pouring Water on Elijah's Hands")
+
+    p_body([
+        ("We find Elijah and Elisha. Elisha did not know all that was going on; he just followed Elijah faithfully. Historical facts indicate Elisha came from a wealthy family and he probably was older, yet he served Elijah with all his heart. When the king asked who has the word of the Lord, he said:", False, False)
+    ])
 
     script_ref("2 Kings 3:11")
     script_verse("[11] But Jehoshaphat said, Is there not here a prophet of the LORD, that we may enquire of the LORD by him? And one of the king of Israel's servants answered and said, Here is Elisha the son of Shaphat, which poured water on the hands of Elijah.")
     sp()
 
     p_body([
-        ("The scriptural pattern of faithful stewardship is powerfully illustrated in Elijah and Elisha. Elisha did not know all that lay ahead when he was summoned from the plow; he simply followed Elijah with an undivided heart. Historical indications suggest Elisha came from an affluent agricultural household and was likely older, yet he willingly subjected himself to humble, menial servanthood. When the allied kings sought a prophet of the Lord, the accrediting testimony given concerning Elisha was: ", False, False),
-        ("'Here is Elisha the son of Shaphat, which poured water on the hands of Elijah.'", True, True),
-        (" He was celebrated not by oratorical titles, but by dependable, servant-hearted loyalty.", False, False)
+        ("He poured water—a symbolic term on the hands of Elijah, which means he served him faithfully. And he followed him through. Notice as they were pressing through Jericho before Jordan, all the sons of the prophets stayed behind. ", False, False),
+        ("They said, 'Why are you following this man? What are you following him for? Don't you know he is going today?'", False, True),
+        (" Elisha did not answer them; he kept following. When Elijah said, 'What do you ask of me?' Elisha said, 'I want a double portion of your spirit,' which is the firstborn inheritance to be the head of the prophets.", False, False)
     ])
+
+    p_body([
+        ("Elijah said, 'What you ask of me is very hard, but if you see me go, it shall be so.' And Elisha was there faithful.", False, False)
+    ])
+
+    p_anecdote(
+        "And one knows he did not do it for himself. As soon as he left—and I shared a bit of that in church today about Jordan—and the mantle came on him and he split the Jordan, he said:"
+    )
 
     script_ref("2 Kings 2:14")
     script_verse("[14] And he took the mantle of Elijah that fell from him, and smote the waters, and said, Where is the LORD God of Elijah? and when he also had smitten the waters, they parted hither and thither: and Elisha went over.")
     sp()
 
     p_body([
-        ("As Elijah made his final journey through Gilgal, Bethel, Jericho, and toward Jordan (", False, False),
-        ("2 Kings 2", True, False),
-        ("), the cynical sons of the prophets lingered behind as passive observers, questioning Elisha: 'Why are you following this master? Do you not know he will be taken from you today?' Elisha refused to be distracted by their cynicism and stood faithfully with his spiritual father to the very end. When Elijah asked what he desired, Elisha requested a double portion of his spirit—the legal birthright of the firstborn inheritor to maintain the continuity of the prophetic office. When Elijah was caught up and the mantle fell, Elisha demonstrated that his service was entirely devoid of personal ambition. Striking the waters of the Jordan, he cried: ", False, False),
-        ("'Where is the LORD God of Elijah?'", True, True),
-        (" He did not proclaim, 'Where is the God of Elisha?' He made it abundantly clear to all that he was merely wearing Elijah's ministry under the same God.", False, False)
+        ("That is what he said. That is faithfulness. Nothing changed; he was not doing it for himself. 'Where is the Lord God?' He did not say, 'Where is the God of Elisha?' No, he said, 'Where is the Lord God of Elijah?' He is letting everybody know, 'I am wearing Elijah's ministry.' That is a faithful person. He is loyal, just like Joshua. Joshua stayed with the fact that this is the instruction of Moses, the servant of the Lord.", False, False)
+    ])
+
+    p_anecdote(
+        "Joshua did not use Moses to preach, saying, 'Moses could have brought us here, but he is not the one that eventually entered; you know what happened to him.' No! He stayed with the fact that this is Moses' instruction."
+    )
+
+    p_body([
+        ("Loyal, faithful people do not do otherwise when leadership is not there. Faithful people will do in the service what they would have done if Jesus were seated in the front seat. Faithful people will do in the service what they would have done if Pastor were seated in the service. It is not because leadership is present; in fact, they do things behind leadership as though leadership were seated there. It is required of a steward that a man be found faithful, reliable under every circumstance—trustworthy.", False, False)
+    ])
+
+    # --- SECTION 4 ---
+    h2("Like a Broken Tooth and a Foot out of Joint")
+
+    p_anecdote(
+        "Look at what Pastor Somi shared with us at the Believers Convention. I told him I was going to make it a teaching."
+    )
+
+    p_body([
+        ("We saw Timothy everywhere. One can readily call Paul's epistles Timothy's epistles—faithful, everywhere.", False, False)
     ])
 
     p_body([
-        ("In identical fashion, Joshua honored Moses. He faithfully executed Moses' instructions and never exploited Moses' passing or human shortcomings as pulpit sermon material to manufacture an independent reputation. Faithful people do not conduct themselves differently when leadership is absent. Indeed, this establishes the cardinal rule of ministerial integrity: ", False, False),
-        ("faithful leaders conduct themselves in the background precisely as they would if Jesus Christ or their senior pastor were seated in the front row", True, True),
-        (". Their diligence, reverence, and pastoral care remain constant whether observed or unobserved.", False, False)
-    ])
-
-    # -------------------------------------------------------------------------
-    # SECTION 4
-    # -------------------------------------------------------------------------
-    h2("The Broken Tooth and Foot out of Joint: The Acute Damage of Unfaithfulness")
-
-    p_body([
-        ("Consider the Apostle Paul's ministry. Throughout the New Testament epistles, Timothy appears consistently as Paul's dependable associate—so ubiquitous that one could readily refer to Paul's epistles as Timothy's epistles. Timothy was thoroughly reliable, sharing Paul's heart and naturally caring for the welfare of the flock.", False, False)
+        ("Proverbs 25:19:", False, False)
     ])
 
     script_ref("Proverbs 25:19")
     script_verse("[19] Confidence in an unfaithful man in time of trouble is like a broken tooth, and a foot out of joint.")
     sp()
 
+    p_anecdote(
+        "I have experienced it too. A broken tooth is painful; it cannot chew. A foot out of joint cannot walk."
+    )
+
     p_body([
-        ("In sharp contrast, ", False, False),
-        ("Proverbs 25:19", True, False),
-        (" reveals the acute dysfunction and excruciating pain inflicted by unreliable workers: ", False, False),
-        ("'Confidence in an unfaithful man in time of trouble is like a broken tooth, and a foot out of joint.'", True, True),
-        (" When an individual attempts to chew with a fractured tooth, the result is sharp agony and incapacity. When one attempts to walk on a dislocated foot, mobility collapses. In like manner, when an unfaithful individual occupies the office of a cell leader, department head, or pastor, their presence provides no functional support; when ministerial pressure arrives, they collapse, crippling the local assembly and inflicting agonizing hindrance upon the work of God.", False, False)
+        ("An individual is there, they have a responsibility—they have been made a cell leader, their name is on the roll, they are a head of department or a pastor—but they are like a broken tooth: we cannot chew, we cannot walk, yet they are there.", False, False)
     ])
 
-    # -------------------------------------------------------------------------
-    # SECTION 5
-    # -------------------------------------------------------------------------
-    h2("The Eternal Weight of Ministerial Consequences: God's Value for Human Lives")
+    p_body([
+        ("Anybody who says that what one does in the service of God has no consequence is deceiving people.", False, False)
+    ])
 
-    script_ref("Luke 17:1-2")
-    script_verse("[1] It is impossible but that offences will come: but woe unto him, through whom they come!")
+    p_anecdote(
+        "There was a guy I told last year: 'Read my lips. Before you were born, I have been teaching unconditional forgiveness. Before you were even old enough to go to hell, I have been teaching the grace of God. Watch—read my lips: you will bear the consequences.' He did not do anything to me personally, but I said, 'Hear what I have said very well: when you are serving God, you do not joke.'"
+    )
+
+    p_body([
+        ("God practically treasures lives. That is why Jesus said:", False, False)
+    ])
+
+    script_ref("Luke 17:2")
     script_verse("[2] It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones.")
     sp()
 
+    # --- SECTION 5 ---
+    h2("God Practically Treasures Lives: The Casual Handling of Disciples")
+
+    p_anecdote(
+        "Somebody from church came to me making plans to leave the country. I said, 'Okay, you want to leave the country—no problem. Have you thought about the people that you disciple?' He said, 'Oh, I was just thinking that since my pastor knows them...' You get to the US, the UK, or Canada, and you start to struggle in ministry, and you wonder why you are struggling. In Nigeria, you treated God's people like that! He said, 'My pastor should...' very casually. I said, 'No, you ought to have been thinking about these ones!'"
+    )
+
     p_body([
-        ("Let every leader understand that ministerial service carries severe spiritual consequences. While believers rejoice in unconditional justification and the eternal grace of God, ministry is not a casual game. Anyone who asserts that ministerial negligence carries no consequences is sorely deceived.", False, False)
+        ("People feel that those things are just for Saints Community—just bring people, dump them in the service, and say, 'Yeah, we are changing lives,' until another natural opportunity changes them. No—one million times no! A leader cannot think outside those people. Whatever one does to lives is how God sees them.", False, False)
+    ])
+
+    p_body([
+        ("Lives are like treasure; lives are like money. Most who are cell leaders have twenty or thirty people under their care; some have forty or fifty; some fellowship leaders have more than that. And then for the same twenty people, the leader does not have time for them. The leader says, 'Well, the nature of my job, you know where I live.' Excuses enough for the Old Testament have been reeled out, while praying for increase!", False, False)
+    ])
+
+    # --- SECTION 6 ---
+    h2("Lives Are Like Money: The Akara Business Illustration")
+
+    p_body([
+        ("How will increase come?", False, False)
     ])
 
     p_anecdote(
-        "There was an individual I warned last year: 'Read my lips: before you were born, I have been teaching unconditional forgiveness. Before you were ever in danger of hell, I have been teaching the grace of God. But hear me clearly—you will bear the consequences of your actions.' He had done nothing to me personally, but I gave him that sober warning because when serving God, one cannot joke. God places immense value upon human lives. That is why the Lord Jesus declared in Luke 17:1-2 that it were better for a heavy millstone to be fastened around a man's neck and he be cast into the depth of the sea than to cause one of His little ones to stumble."
+        "Consider the example I gave yesterday: If you give somebody one hundred thousand naira to go and do business—to fry akara (akara is bean cake). The person is happy: 'Oh, you gave me 100k so I can fry akara!' Then two weeks, three weeks, one month passes. He starts sending text messages: 'Sorry, you know there is COVID, people are not really eating akara again because they are wearing masks.' Three weeks after: 'You know beans is now expensive.'"
     )
 
     p_anecdote(
-        "A church member once approached me sharing plans to relocate abroad. When I inquired, 'Have you thought about the disciples committed to your care?' he replied with complete flippancy: 'Oh, I was just thinking that since my pastor knows them, the church will take care of them.' I told him: 'No! You ought to be deeply concerned about those lives!' People discard their pastoral responsibilities in Nigeria, arrive in North America or Europe, and then wonder why they encounter persistent frustration and sterility in ministry. They treated God's people like disposable commodities, dumping them into services without ongoing pastoral oversight until personal convenience dictated their departure. One cannot think outside the people God has entrusted to their hands."
+        "Where is the 100k? 'We cannot get the 100k back, but to the glory of God, in the next one year I can get you 20k back.' And then you come back at a convention saying, 'I want to get one million! We are changing lives!' Anybody that gives you fifty thousand naira is an idiot, because look at your track record! Ten souls were given to you, only one remains, and that one is your cousin—and you say you want more? More of what?"
     )
 
-    # -------------------------------------------------------------------------
-    # SECTION 6
-    # -------------------------------------------------------------------------
-    h2("Lives as Divine Capital: The Akara Trader Analogy and the Soul-Winning Test")
+    p_body([
+        ("Lives are like an investment. For every life, the person who preached the gospel invested, and that investment is in the flock. The person who saw to it that one grew in the Word was investing in lives they did not even know.", False, False)
+    ])
 
-    script_ref("Luke 16:10-12")
+    p_body([
+        ("Lives are like money. For every one person whose life is changed, other lives are being changed. Look at the reverse case: for every one person whose life is wasted, other lives are being wasted.", False, False)
+    ])
+
+    p_body([
+        ("Every day, give reports on what is done concerning lives. When a leader fails to do it daily and excuses it—'My data finished, there was no power'—a destructive path is being created.", False, False)
+    ])
+
+    p_anecdote(
+        "If we were to say one thousand dollars per soul, there would be no street left uncovered—'covering the earth' would happen in one month! One thousand dollars: that means ten souls is ten thousand dollars. Immediately, the conversion rate is calculated. One hundred souls: 'Pastor, why can't we do Storm every day?' One hundred souls is one hundred thousand dollars—fifty million naira. Why wouldn't someone win one hundred souls a day? The excuse of being tired in the evening would vanish: 'I am not tired in Jesus! I have the strength of God! What useless sleep am I sleeping? I am for the Lord!' Why? Because money is attached. But those lives are money—they are expensive, very expensive."
+    )
+
+    p_anecdote(
+        "Recently, I had this very troubling headache. Somebody in the room said, 'Pastor, rest.' I said, 'No. I know I should rest, but I will be fine. There is work to be done. I will look away from it and act like the Word of God is true. This job has to be done.'"
+    )
+
+    # --- SECTION 7 ---
+    h2("Faithful with Little: Success in Ministry Is Planned")
+
+    p_body([
+        ("Jesus said:", False, False)
+    ])
+
+    script_ref("Luke 16:10")
     script_verse("[10] He that is faithful in that which is least is faithful also in much: and he that is unjust in the least is unjust also in much.")
-    script_verse("[11] If therefore ye have not been faithful in the unrighteous mammon, who will commit to your trust the true riches?")
-    script_verse("[12] And if ye have not been faithful in that which is another man's, who shall give you that which is your own?")
     sp()
 
     p_body([
-        ("In the kingdom of God, human lives are spiritual currency. When God places ten, twenty, thirty, or fifty people under a cell leader's charge, He has entrusted that leader with capital of infinite eternal worth. Yet many leaders casually excuse numerical decline, citing secular employment, transit difficulties, or residential distance, while simultaneously offering empty prayers for church increase.", False, False)
+        ("Who will commit much to your hands? Sometimes people look at numerically grown churches and think, 'It is because they are preaching false doctrine.' Go and try preaching false doctrine and let us see! Are there not people preaching false doctrine in your backyard? People think, 'It is because they are using oil and mantles.' That is not it! In many instances, you find people who are totally dedicated to what they are doing, totally given to it.", False, False)
     ])
 
     p_anecdote(
-        "Consider the practical illustration I shared yesterday: If you entrust an entrepreneur with one hundred thousand naira to trade and fry akara (bean cakes), and after weeks of silence he returns claiming, 'COVID came, people are wearing masks and not eating akara, beans are now expensive, and the entire principal is lost, but to the glory of God, I might recover twenty thousand naira over the next year'—would any prudent person commit a million naira into his hands? Anyone who gives him fifty thousand naira is an idiot! Look at his track record. Yet leaders present an identical track record before God: ten souls were committed to their cell, nine have vanished through negligence with only a personal cousin remaining, and yet they come to church conventions praying for increase! More of what? What increase can be committed to hands that squander divine investment?"
+        "My dad told me that success is planned. He said that when he got to school, because he knew his reading attention span was just one hour, he ensured that he read one hour five times a day. He cut short a lot of activities and he made a first class. He planned it."
     )
 
     p_body([
-        ("Every soul under a leader's care represents the accumulated spiritual investment of those who went before—the evangelist who proclaimed the gospel, the pastor who taught, and the intercessors who labored. For every soul a leader edifies and preserves, a generational lineage of disciples is impacted. Conversely, for every soul a leader neglects and loses, a branch of the kingdom's harvest is severed. When cell leaders fail to submit daily reports and offer trite excuses about depleted data or power outages, they demonstrate disregard for divine capital.", False, False)
-    ])
-
-    p_body([
-        ("Expose the hypocrisy of natural motivation: if church leadership were to announce a financial compensation of one thousand dollars for every soul won and successfully integrated into the local assembly, streets would be covered within a month! For ten souls, a leader would receive ten thousand dollars; for one hundred souls, one hundred thousand dollars. Complaints of evening fatigue would vanish instantly; leaders would claim divine strength, eliminate unnecessary sleep, and hold continuous outreaches because monetary gain is in view. Yet the eternal value of a single human life bought by the blood of Christ infinitely surpasses earthly wealth.", False, False)
+        ("In the same way, ministry cannot just grow because one is praying. Praying while doing the exact opposite is like having bullets and no gun to shoot them. The prayer is the ammunition, but it is not being utilized through practical execution.", False, False)
     ])
 
     p_anecdote(
-        "Recently, I experienced a severe, troubling headache. Someone in the room urged: 'Pastor, you need to rest.' I replied: 'No. I know I should rest, but there is work to be done. I will look away from physical symptoms and act like the Word of God is true. The job has to be done.' Souls are precious; their value demands unwavering consecration."
+        "I told the pastors that for every soul that comes to our conventions—while we may not be able to account for those from other churches—we must give account of each one of ours. If we do not learn to do it with ten thousand, we will not be able to do it with one hundred thousand or one million. We must show accountability."
     )
 
-    # -------------------------------------------------------------------------
-    # SECTION 7
-    # -------------------------------------------------------------------------
-    h2("Success in Ministry Is Planned: Dedication, Structure, and Ministerial Alertness")
-
-    script_ref("1 Corinthians 9:26")
-    script_verse("[26] I therefore so run, not as uncertainly; so fight I, not as one that beateth the air.")
-    sp()
-
     p_body([
-        ("Ministers frequently make the erroneous assumption that numerical growth in other assemblies is merely the byproduct of false doctrine, sensationalism, or theatrical gimmicks like mantles and holy oil. That is completely false. In many instances, those assemblies expand because their leaders are totally dedicated, exceptionally hardworking, and administratively disciplined. Erroneous doctrine in itself does not gather people; discipline and labor do.", False, False)
+        ("Faithfulness is the breath of ministry: always being at one's duty post. The holiday period is not a holiday for ministry. No, it is not!", False, False)
     ])
+
+    # --- SECTION 8 ---
+    h2("Always at the Duty Post: No Holidays from Ministry")
 
     p_anecdote(
-        "My father taught me that success in any endeavor is deliberate and planned. When he recognized that his natural reading attention span did not exceed one hour, he did not surrender to mediocrity. Instead, he structured his day into five distinct one-hour study blocks separated by rest, eliminated extraneous social activities, and graduated with first-class honors. Spiritual ministry operates by the very same principle. A cell group or local assembly will never flourish merely because a leader offers fervent prayers while neglecting practical execution. Praying without disciplined pastoral planning is like stockpiling ammunition in an armory without possessing a firearm to discharge it."
+        "A holiday from the government is not a gift. If you are a businessman and took credit from the bank, interest runs on the holiday while you are praying on Sunday morning! How much more in ministry?"
     )
-
-    p_body([
-        ("Accountability must begin at the smallest scale. If a leadership core cannot meticulously track, follow up, and account for attendees at a convention, it is completely incapacitated from overseeing tens of thousands or hundreds of thousands of souls. Faithfulness is the foundational breath of ministry: it requires an unbroken presence at one's duty post.", False, False)
-    ])
-
-    p_body([
-        ("Furthermore, the pastoral calling recognizes no secular vacations. Holidays declared by civil government are not holidays from the work of the ministry. While temporal employees pause work, the spiritual steward recognizes that human needs, demonic pressures, and pastoral oversights operate continuously.", False, False)
-    ])
 
     p_anecdote(
-        "One Christmas Day, returning from the United States via Dallas, I had an extended conversation with Brother Pelumi and missed my flight due to casual inattention. Later, observing from the airplane, I noticed airport security working, planes flying, air traffic controllers directing flights without singing holiday carols, emergency physicians on call delivering babies on Christmas Day, and police officers inspecting vehicle trunks while wishing motorists a Merry Christmas. Operations were continuing around the clock. I told myself: 'I am a preacher of the eternal gospel; I must maintain unyielding spiritual alertness.' Faithful leaders must be faithful with time and alertness in the execution of their duties."
+        "One day I was coming back from the US on Christmas Day. I was in Dallas and Brother Pelumi was hosting me. Somehow we got talking and hugging, and I missed my flight. (I did that with Femi Adetimobi too at the airport)."
     )
 
-    # -------------------------------------------------------------------------
-    # SECTION 8
-    # -------------------------------------------------------------------------
-    h2("Proving and Testing: The Biblical Ecclesiastical Statute for Leadership")
-
-    script_ref("1 Samuel 16:6-7")
-    script_verse("[6] And it came to pass, when they were come, that he looked on Eliab, and said, Surely the LORD'S anointed is before him.")
-    script_verse("[7] But the LORD said unto Samuel, Look not on his countenance, or on the height of his stature; because I have refused him: for the LORD seeth not as man seeth; for man looketh on the outward appearance, but the LORD looketh on the heart.")
-    sp()
+    p_anecdote(
+        "On Christmas Day, on the plane, I made observations: security personnel were working, planes were operating, air traffic controllers were directing planes without singing 'Jingle Bells.' Doctors were working on call on Christmas Day. Babies were being born on Christmas Day, and doctors were on duty. The police were saying, 'Merry Christmas, please let me check your car boot.' Everybody was working around the clock. So I told myself: 'I am a preacher of the gospel; I must be alert.'"
+    )
 
     p_body([
-        ("God does not commit spiritual authority to untested vessels. When the prophet Samuel arrived to anoint a king in Bethlehem (", False, False),
-        ("1 Samuel 16:6-7", True, False),
-        ("), he looked upon Eliab's commanding physical stature and concluded that the Lord's anointed stood before him. But the Lord rejected Eliab, declaring that man looks on the outward appearance, but God looks upon the heart. In the original Hebrew, the term for rejection carries the force of one who has failed the moral examination. Divine testing is not designed to orchestrate human destruction; rather, it is akin to test-driving a newly engineered machine to demonstrate its structural integrity.", False, False)
+        ("One must be faithful with time, faithful with alertness in the things committed to them.", False, False)
+    ])
+
+    # --- SECTION 9 ---
+    h2("Testing and Proving: Let These Also First Be Proved")
+
+    p_body([
+        ("Things will come to test that one is faithful. Remember when Eliab was to be anointed by Samuel in 1 Samuel 16? Samuel said, 'Surely the Lord's anointed is before me.' But the Lord said, 'No, it is not Eliab; I have rejected him.' The Hebrew carries the force of someone who failed the test.", False, False)
+    ])
+
+    p_body([
+        ("One never knows when the test comes. God tests people—not so that they fail, but the way one test-drives a car. Look at what He said about Job: 'Have you considered My servant Job?' What a boast! He has integrity.", False, False)
     ])
 
     script_ref("James 1:2-4")
@@ -367,26 +419,21 @@ def build_faithfulness_document(docx_paths, md_paths):
     sp()
 
     p_body([
-        ("God boasted of Job's integrity: ", False, False),
-        ("'Hast thou considered my servant Job, that there is none like him in the earth?'", True, True),
-        (" When trials confront the minister, James instructs that it should be received with joy, knowing that the trial of faith produces steadfast patience (", False, False),
-        ("hypomone", True, True),
-        ("), maturing the believer until they lack nothing. Running from divine tests is running from the very character required to fulfill the ministry.", False, False)
+        ("When one runs from tests, one runs from the character required to do the work of the ministry.", False, False)
     ])
 
-    script_ref("1 Timothy 3:10, 13")
-    script_verse("[10] And let these also first be proved; then let them use the office of a deacon, being found blameless.")
+    p_body([
+        ("In 1 Timothy chapter 3, Paul writes concerning deacons—the associates of the pastor:", False, False)
+    ])
+
+    script_ref("1 Timothy 3:13")
     script_verse("[13] For they that have used the office of a deacon well purchase to themselves a good degree, and great boldness in the faith which is in Christ Jesus.")
+    script_ref("1 Timothy 3:10")
+    script_verse("[10] And let these also first be proved; then let them use the office of a deacon, being found blameless.")
     sp()
 
     p_body([
-        ("In ", False, False),
-        ("1 Timothy 3:10", True, False),
-        (", the Apostle Paul establishes a mandatory ecclesiastical statute: ", False, False),
-        ("let these also first be proved", True, False),
-        (". The term translated 'proved' is the Greek verb ", False, False),
-        ("dokimazo", True, True),
-        (", meaning to scrutinize, examine closely, and test thoroughly as metal in a furnace. Notice that Paul does not instruct Timothy to wait for a mystical sign from heaven; rather, human leadership is commanded to actively test and observe prospective workers. A leader must possess discerning eyes to assess individuals' character under pressure, their punctuality, their submission to instruction, and their dependability.", False, False)
+        ("Let them be examined closely, tested thoroughly. Who does the proving? Does Paul say the Spirit of God will prove them? No—the leader will do it! In leadership, one opens their eyes to know people and their true character.", False, False)
     ])
 
     script_ref("2 Timothy 2:15")
@@ -394,51 +441,54 @@ def build_faithfulness_document(docx_paths, md_paths):
     sp()
 
     p_body([
-        ("Paul reinforces this standard in ", False, False),
-        ("2 Timothy 2:15", True, False),
-        (": the minister must labor to present themselves ", False, False),
-        ("approved unto God", True, False),
-        (". The word 'approved' is ", False, False),
-        ("dokimos", True, True),
-        ("—a certified, thoroughly tested workman who stands unashamed. Untested leadership is an ecclesiastical catastrophe.", False, False)
+        ("'Approved' is the same word: tested—a tested workman. A leader cannot be untested.", False, False)
     ])
 
-    script_ref("Acts 15:25-26")
-    script_verse("[25] It seemed good unto us, being assembled with one accord, to send chosen men unto you with our beloved Barnabas and Paul,")
+    p_body([
+        ("When the apostles in Acts 15 were going to send Paul and Barnabas to the Gentile churches:", False, False)
+    ])
+
+    script_ref("Acts 15:26")
     script_verse("[26] Men that have hazarded their lives for the name of our Lord Jesus Christ.")
     sp()
 
     p_body([
-        ("When the apostles in Jerusalem dispatched representatives to the Gentile assemblies (", False, False),
-        ("Acts 15:25-26", True, False),
-        ("), their commendation was unequivocal: ", False, False),
-        ("'Men that have hazarded their lives for the name of our Lord Jesus Christ.'", True, True),
-        (" These were not fair-weather enthusiasts; their commitment had been demonstrated through persecution, sacrifice, and adversity.", False, False)
+        ("They knew they had been proven. They put everything on the table. The apostles said, 'We know these men; we have seen them through hard times. They are not fair-weather men; listen to them.'", False, False)
     ])
 
     p_anecdote(
-        "Certain individuals join a local church seeking rapid prominence, platforms, or ordination. When individuals arrive boasting of previous titles—even if they were an archbishop elsewhere—they must pocket the title at the door, attend membership classes, and be tested in Operations, Works, and Security. Those who came desiring only to sing in the choir were assigned to clean and watch the toilets. True servants count it an honor to serve anywhere they are placed; those motivated by carnal ambition flee when handed a mop or instructed to assist in menial tasks."
+        "There are people who joined this church and ran away. Why? They were trying to get visibility. Even if you were an Archbishop where you came from, pocket it at the door when you arrive here! Join membership class. We will test you with the Operations department, then Works, then Security. Those who were singing were assigned to Operations to watch toilets!"
     )
 
-    # -------------------------------------------------------------------------
-    # SECTION 9
-    # -------------------------------------------------------------------------
-    h2("Joseph vs. Gehazi: Integrity Under Pressure vs. Covetous Compromise")
+    p_body([
+        ("People must be proven. Did one come to have a position, or to serve? If one came to serve, anywhere they are placed, they will serve.", False, False)
+    ])
 
-    script_ref("Genesis 39:9")
-    script_verse("[9] There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?")
-    sp()
+    # --- SECTION 10 ---
+    h2("Joseph vs. Gehazi: Integrity Across Circumstances")
 
     p_body([
-        ("When testing arrives, leaders invariably emerge as either a ", False, False),
-        ("Joseph or a Gehazi", True, False),
-        (". Joseph exemplified unwavering faithfulness across every station of life. In Canaan, he was his father's favored son; yet when cast into slavery in Potiphar's house, his diligence was so conspicuous that Potiphar committed the entire estate into his hands. When Potiphar's wife repeatedly solicited him to commit adultery, Joseph refused to compromise, asserting: ", False, False),
-        ("'How then can I do this great wickedness, and sin against God?'", True, True),
-        (" He fled the trap, leaving his garment behind.", False, False)
+        ("When people are tested, they emerge either as a Joseph or as a Gehazi.", False, False)
     ])
 
     p_body([
-        ("Falsely accused and thrown into Pharaoh's dungeon, Joseph did not collapse into self-pity, bitterness, or rebellion against God. Instead, he maintained his spiritual sensitivity, interpreting the prophetic dreams of the baker and the butler. When forgotten for two full years, he harbored no resentment. When summoned before Pharaoh, he did not negotiate terms, demand compensation for false imprisonment, or seek the execution of Potiphar's wife. He stood before the monarch with pure theological clarity, declaring that God would give Pharaoh an answer of peace.", False, False)
+        ("Joseph was faithful as the father's favorite son. When he was sold as a slave into Potiphar's house, no circumstance changed him. He was faithful, and Potiphar committed the whole house into his hands. When Potiphar's wife tested him, saying her husband would not know, Joseph said, 'How can I sin against God?' She pressed him repeatedly, and eventually defamed him.", False, False)
+    ])
+
+    p_body([
+        ("He arrived in prison and did not grumble or say, 'After serving God, look at what happened; let me plan a prison escape.' In prison, when the butler and baker had dreams, he was not bitter, saying, 'Is it not dreams that got me here? I am not ready for all this ministry nonsense.' No—he simply interpreted the dreams. Faithful! And when the butler forgot him, he did not grumble.", False, False)
+    ])
+
+    p_body([
+        ("If one is going to handle a nation, one must know how to handle trouble. When summoned before Pharaoh, Joseph did not set conditions: 'First, you must release me; second, execute the woman who lied against me; third, send me home.' He simply gave the interpretation and said God would give Pharaoh an answer of peace. Pharaoh recognized that the Spirit of God was in him, and placed him in charge of the entire nation.", False, False)
+    ])
+
+    p_anecdote(
+        "He was now in charge of the whole nation, including Potiphar's household. When Potiphar's wife came for rations, Joseph did not seek vengeance; he provided food and let her go."
+    )
+
+    p_body([
+        ("When the brothers came after their father died, they were afraid and conjured up a message claiming their father asked Joseph to forgive them. Joseph wept and said:", False, False)
     ])
 
     script_ref("Genesis 50:20")
@@ -446,69 +496,83 @@ def build_faithfulness_document(docx_paths, md_paths):
     sp()
 
     p_body([
-        ("When exalted to govern Egypt, Joseph administered food to the nation, extending provision even to Potiphar's household without vindictiveness. When his brothers arrived trembling after Jacob's death, manufacturing an apologetic message out of fear, Joseph wept and comforted them, revealing the character of Christ: ", False, False),
-        ("'Fear not: for am I in the place of God? But as for you, ye thought evil against me; but God meant it unto good.'", True, True),
-        (" True faithfulness remains constant whether in the pit, the prison, or the palace.", False, False)
-    ])
-
-    script_ref("2 Kings 5:26-27")
-    script_verse("[26] And he said unto him, Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants?")
-    script_verse("[27] The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper as white as snow.")
-    sp()
-
-    p_body([
-        ("In tragic contrast stands Gehazi. Gehazi served under the prophet Elisha, witnessing supernatural demonstrations and holding the potential to inherit the prophetic succession. Yet when Naaman was healed of leprosy and Elisha refused material remuneration, Gehazi's hidden covetousness flared. Pursuing Naaman deceitfully, he fabricated a story to extract silver and garments. Elisha exposed his compromise: ", False, False),
-        ("'Went not mine heart with thee, when the man turned again from his chariot to meet thee?'", True, True),
-        (" Gehazi traded eternal spiritual inheritance for temporal gain, leaving Elisha's presence a leper as white as snow. Untested ambition invariably produces Gehazi-like catastrophes.", False, False)
+        ("See the character of Jesus Christ. That is faithfulness. No circumstance changes a faithful man.", False, False)
     ])
 
     p_body([
-        ("Pastors and senior leaders must strictly observe this rule: ", False, False),
-        ("never donate spiritual responsibility to unproven individuals", True, False),
-        (". When individuals volunteer to launch independent groups or seek platforms without operating within established church structures, their ambition must be tested. God intentionally permits fires and difficult seasons so that those who cannot endure the desert are prevented from contaminating the promised land. Leadership oversight cannot be exercised through social media analytics; it requires direct, personal proving through the heat of service.", False, False)
+        ("As a minister, one could be like Gehazi. Gehazi wanted something material; he ran after Naaman and contracted leprosy.", False, False)
     ])
 
-    # -------------------------------------------------------------------------
-    # SECTION 10
-    # -------------------------------------------------------------------------
-    h2("Keeping the Few Sheep: David's Pastoral Faithfulness in Obscurity")
+    p_body([
+        ("God does not use people He does not test. He tests one so that He can entrust more to them. He builds character, strength, and commitment.", False, False)
+    ])
+
+    # --- SECTION 11 ---
+    h2("Never Donate Responsibility to Unproven People")
+
+    p_body([
+        ("All leaders must hear this: do not use people you have not proven. Do not donate responsibility to people.", False, False)
+    ])
+
+    p_anecdote(
+        "Someone once told me, 'Pastor, I am gathering some people in church.' I said, 'Go and do it in your zone and submit reports to your Zonal Pastor.' The person became uncomfortable, and I knew he was ambitious; he does not attend anymore because his motive was merely to be noticed by the senior pastor."
+    )
+
+    p_body([
+        ("Pastors, do not change the method. Let us see what workers do ourselves.", False, False)
+    ])
+
+    p_anecdote(
+        "If you are placed on a committee to supervise a hostel at Believers Convention and everything falls apart, we look at that. If you are assigned to Works and arrive late, that matters. If you had eight workers and only two remain while six are gone, that matters a lot. Eye-service will not take anyone far."
+    )
+
+    p_anecdote(
+        "God allows certain fires so that those who cannot be with you in the promised land do not cross the desert."
+    )
+
+    p_anecdote(
+        "Forget all this social media pastoring. God does not give pastoral oversight through social media. There is no scripture for having oversight over people through media—following people online is not pastoring. Do not run from tests; be faithful."
+    )
+
+    # --- SECTION 12 ---
+    h2("David the Shepherd: Keeping the Few Sheep")
+
+    p_body([
+        ("Look at David in 1 Samuel 16. In Ezekiel 34, the prophetic name given to Jesus is David. Look at David the shepherd: the very first time we hear about him in 1 Samuel 16:", False, False)
+    ])
 
     script_ref("1 Samuel 16:11")
-    script_verse("[11] And Samuel said unto Jesse, Are here all thy children? And he said, There remaineth yet the youngest, and, behold, he keepeth the sheep. And Samuel said unto Jesse, Send and fetch him: for we will not sit down till he come hither.")
+    script_verse("[11] And Samuel said unto Jesse, Are here all thy children? And he said, There remaineth yet the youngest, and, behold, he keepeth the sheep.")
     sp()
 
     p_body([
-        ("The scriptural portrait of shepherd leadership finds its pinnacle in David, whose life prophetically foreshadows Jesus Christ—the Good Shepherd (", False, False),
-        ("Ezekiel 34:23; John 10:11", True, False),
-        ("). When the prophet Samuel arrived in Bethlehem to anoint Israel's next king, all of Jesse's older sons were presented, while David was absent in the wilderness. The scripture records the first mention of his character: ", False, False),
-        ("'Behold, he keepeth the sheep.'", True, True),
-        (" Faithfulness in obscurity is the prerequisite for public stewardship.", False, False)
+        ("The very first thing known of him was that he was keeping the sheep.", False, False)
     ])
 
-    script_ref("1 Samuel 17:20, 28, 34-36")
-    script_verse("[20] And David rose up early in the morning, and left the sheep with a keeper...")
-    script_verse("[28] And Eliab his eldest brother heard when he spake unto the men; and Eliab's anger was kindled against David, and he said, Why camest thou down hither? and with whom hast thou left those few sheep in the wilderness?")
+    p_body([
+        ("When he went to the battlefield and his brother Eliab mocked him concerning the few sheep in the wilderness, David had left them in good care with a keeper.", False, False)
+    ])
+
+    p_body([
+        ("When he stood before Saul, what were his credentials?", False, False)
+    ])
+
+    script_ref("1 Samuel 17:34-36")
     script_verse("[34] And David said unto Saul, Thy servant kept his father's sheep, and there came a lion, and a bear, and took a lamb out of the flock:")
     script_verse("[35] And I went out after him, and smote him, and delivered it out of his mouth: and when he arose against me, I caught him by his beard, and smote him, and slew him.")
-    script_verse("[36] Thy servant slew both the lion and the bear: and this uncircumcised Philistine shall be as one of them...")
+    script_verse("[36] Thy servant slew both the lion and the bear...")
     sp()
 
     p_body([
-        ("When David arrived at the battle encampment, his eldest brother Eliab falsely accused him of insolence, asking condescendingly: ", False, False),
-        ("'With whom hast thou left those few sheep in the wilderness?'", True, True),
-        (" But David had already ensured that those few sheep were placed in the custody of a dependable keeper (", False, False),
-        ("1 Samuel 17:20", True, False),
-        ("). Even when visiting a national battlefield, the safety of his small flock remained his primary concern.", False, False)
+        ("He did not lose a single sheep. He mirrored the Good Shepherd. Faithful with a few! God proved David with the sheep, and then gave him the nation—just as Moses was forty years faithful with the flock before God gave him Israel. Faithfulness must never be in the past; faithfulness is what one is doing now. Lives are God's investment into other lives.", False, False)
     ])
+
+    # --- SECTION 13 ---
+    h2("The Word and the Spirit: Resources to Manage Lives")
 
     p_body([
-        ("When brought before King Saul, who dismissed him as an untrained youth, David did not boast of political theories or military tactics. His credentials were born of pastoral vigilance: when a lion and a bear attacked the flock, David risked his own life, pursued the predators, struck them, delivered the lamb from their mouths, and slew them. He refused to allow a single lamb to perish. Moses tended the flock of Jethro for forty years in the back of the desert before shepherding Israel out of Egypt; David defended the few sheep before leading the twelve tribes. Faithfulness with the few is God's eternal measuring rod for greater kingdom stewardship.", False, False)
+        ("The Word and the Spirit are the resources to multiply what God has given. The Word: you preach it, teach it, and act upon it. A leader is not just a preacher giving instructions left and right, but an example:", False, False)
     ])
-
-    # -------------------------------------------------------------------------
-    # SECTION 11
-    # -------------------------------------------------------------------------
-    h2("The Word and the Spirit: Cultivating the Second Hearing and Unquenchable Hunger")
 
     script_ref("1 Timothy 4:12")
     script_verse("[12] Let no man despise thy youth; but be thou an example of the believers, in word, in conversation, in charity, in spirit, in faith, in purity.")
@@ -517,81 +581,122 @@ def build_faithfulness_document(docx_paths, md_paths):
     sp()
 
     p_body([
-        ("The cell leader's primary resources for multiplying divine capital are twofold: ", False, False),
-        ("the Word of God and the Holy Spirit", True, False),
-        (". The minister is not called to be a mere dispenser of arbitrary commands, but an ensample (", False, False),
-        ("typos", True, True),
-        (") to the flock in doctrine, speech, love, spiritual fervor, and moral purity (", False, False),
-        ("1 Peter 5:3", True, False),
-        ("). To lead effectively, a minister must cultivate ", False, False),
-        ("the second hearing", True, False),
-        (". A leader does not listen to biblical teaching merely for personal devotional encouragement; a leader listens on behalf of nations, absorbing doctrine, cross-references, and explanations to feed and establish those committed to their charge.", False, False)
+        ("A leader listens to God's Word with the 'second hearing'—hearing not just for oneself, but on behalf of nations.", False, False)
     ])
 
     p_anecdote(
-        "A genuine leader possesses an insatiable, self-motivated appetite for God's Word. Decades ago, when biblical teaching literature and recordings were scarce in Nigeria, no one compelled me to acquire materials. I would trek through industrial quarters to Christian book distributors, inquire when new teaching volumes by Kenneth Hagin or Frederick K.C. Price were arriving, and reserve copies weeks in advance. When the Amplified Bible was extraordinarily rare, I would visit someone who owned a copy and spend thirty constrained minutes transcribing scripture text and cross-references by hand into notebooks. When teaching audio cassettes became available, I saved my financial resources and purchased entire library collections of over two hundred tapes, studying them meticulously. This was not platform posturing; it was an unquenchable hunger for the Word of God."
+        "When we release books, nobody should need to compel a leader to get them. Decades ago, I would walk to Christian bookshops in Isolo, in a corner off Oshodi way. I would ask when Reverend Matthew was releasing the next books by Kenneth Hagin or Frederick K.C. Price. When they said two weeks, I would book down a copy in advance. They started a book club and I became number three in Nigeria as a teenager. Nobody compelled me."
     )
 
     p_anecdote(
-        "We instituted correspondence study courses, distributing comprehensive study manuals to believers—including leaders who now pastor major branches—requiring them to answer detailed doctrinal questions so that truth was ingrained in their spirits. When denominations recently submitted an eighteen-hundred-page theological curriculum for review, expecting a four-month evaluation, I returned the completed critique within four days through relentless labor. In 1994, the Lord spoke clearly to my heart: 'Do not merely admire men's results; follow their labor.' Pulpit effectiveness is not manufactured by theatrics or waving hands; it is the direct outcome of unseen hours spent in fasting, prayer, rigorous textual examination, and absolute submission to the Holy Spirit."
+        "When the Amplified Bible was very rare, I would visit the only person I knew who had a copy, sit down for thirty minutes, and copy out the translation into my notebook by hand. You have to be that hungry! Today people can download tapes. There was a bookshop opposite Deeper Life where I went to buy Brother Hagin's tapes and T.L. Osborn's materials—there was no tape they had that I did not buy."
+    )
+
+    p_anecdote(
+        "In 1994, I went to a tape kiosk wearing slippers and told the attendant, 'I want all of Pastor Chris's tapes.' The attendant said, 'Do you know what you are talking about? There are over two hundred tapes!' I said, 'I want everything.' And I got them all. That is dedication—you do not go halfway, and you do not just put them on a shelf; you study them."
+    )
+
+    p_anecdote(
+        "We began Living Word Correspondence twenty-four years ago, giving study books and questions to believers so they could study as students."
+    )
+
+    p_anecdote(
+        "Early in November, a denomination asked me to review materials totaling 1,800 pages. They asked, 'Can you review it?' I said, 'Give me four days.' They asked, 'Did you say four months?' I said, 'Four days.' In four days, I reviewed and returned everything."
+    )
+
+    p_anecdote(
+        "In 1994, God spoke to me: 'Do not follow people's results; follow their labor.' What are they doing? They are fasting and praying—do it! They are giving their all—do it! Not just how they stand on the pulpit waving their hands."
+    )
+
+    p_anecdote(
+        "In 1995 and 1996, when I did not have money to buy books for everyone, I made photocopies of Brother Hagin's Bible study courses and distributed them to believers in teaching meetings. What I am telling you to do is not theory. You give your all to get materials. Invest your life, because that is your life."
     )
 
     p_body([
-        ("This consecration extends to physical endurance and unwavering consistency. In the early days of ministry, believers walked long distances under intense sunlight to attend seminars, rejecting physical excuses and walking in divine healing. Leaders must rekindle that same apostolic stamina. Furthermore, spiritual consistency must become second nature—exemplified by senior ministers whose prayer routines in the Spirit are so clockwork and dependable that one can set their daily schedule by their fidelity. The Word and the Holy Spirit are the only resources that can sustain and multiply God's flock.", False, False)
+        ("When listening to God's Word at Camp Meeting, Believers Convention, or church service, a leader listens for nations. Your resources are the Word and the Holy Ghost. Utterances, prayer—take them specially. When service ends, put them into practice. Whenever you notice God repeating something again and again, it means you have not been doing it.", False, False)
     ])
 
-    # -------------------------------------------------------------------------
-    # SECTION 12
-    # -------------------------------------------------------------------------
-    h2("The Four Demands of Pastoral Oversight: Evangelism, Establishment, Daily Feeding, and Pastoral Care")
+    p_anecdote(
+        "Some of you used to walk to meetings in the sun when you did not have money. Now you say your car broke down—did you have a car then? There was a time in this ministry it was almost a sin to say you were sick; you were forced to practice divine healing! You have done these things before—you have not outgrown them."
+    )
+
+    p_anecdote(
+        "We used to hold Bible seminars on sanitation Saturdays. People would arrive from Oyo State or Ogun State before 6:30 a.m. In the days of CDs, people would do anything for a CD. Now you download messages on your phone—listen to them with headphones and feed on them continuously, because those are your resources for ministry."
+    )
+
+    p_anecdote(
+        "Brother Toks is one of the most consistent human beings I know—annoyingly consistent. If you wanted to meet him at five minutes to twelve, he was praying in tongues. Consistent! That is faithfulness, commitment, doggedness."
+    )
+
+    # --- SECTION 14 ---
+    h2("The Four Demands of Pastoral Oversight")
 
     script_ref("Romans 15:20")
     script_verse("[20] Yea, so have I strived to preach the gospel, not where Christ was named, lest I should build upon another man's foundation.")
     sp()
 
     p_body([
-        ("In concluding the charge to cell leaders, the Apostle Paul's ministerial practice outlines ", False, False),
-        ("four non-negotiable operational responsibilities", True, False),
-        (" required of every cell leader, fellowship coordinator, and pastor:", False, False)
+        ("That habit of taking other people's church members must never be found among us! If someone asks about your disciple and you say, 'He attends that other church'—that is not your disciple. Your disciple is someone who was unsaved, unchurched, undiscipled. Not someone you dazzled with words or kidnapped—raise people from scratch: unsaved, untaught, unchurched. That is your work.", False, False)
     ])
 
     p_body([
-        ("1. Pioneer Soul Winning (Evangelism): ", True, False),
-        ("A cell leader must be an active, unyielding soul winner. Paul declared his apostolic rule: striving to preach the gospel where Christ was not previously named, refusing to build upon another man's foundation (", False, False),
-        ("Romans 15:20", True, False),
-        ("). The practice of poaching or re-circulating members from other churches is an ecclesiastical abomination that must never exist among us. True discipleship raises individuals from the foundation—winning the unsaved, reaching the unchurched, and establishing the untaught. In ", False, False),
-        ("Numbers 27:17", True, False),
-        (", Moses prayed for shepherds who would lead the congregation in and out. In ", False, False),
-        ("Ezekiel 34:11", True, False),
-        (", the true shepherd searches out the lost sheep. When seats in a cell meeting or church service remain empty, it is an unmistakable symptom of dormant soul winning. A cell leader must keep their soul-winning fire burning constantly.", False, False)
+        ("Four things are required of you concerning your flock:", False, False)
     ])
+
+    h3("1. Soul Winning (Evangelism)")
 
     p_body([
-        ("2. Active Establishment in the Local Church: ", True, False),
-        ("It is utter ministerial negligence for a leader to dispatch people to church as detached spectators. A leader does not merely invite or send disciples; ", False, False),
-        ("the leader attends church together with their disciples", True, False),
-        (". Church attendance is an integral continuation of discipleship. It is completely irresponsible for a leader to sit comfortably in the front rows while their disciples are scattered aimlessly across the auditorium. Leaders must sit adjacent to the people they mentor, actively observing how they follow the Word, whether they open their Bibles, take notes, sing during worship, and pray with fervor. This is the essence of pastoral oversight (", False, False),
-        ("episkope", True, True),
-        ("). Just as negligent parenting produces undisciplined children who disrupt society, negligent pastoring produces careless believers. Leaders must provide direct, personal supervision.", False, False)
+        ("They must be saved through you.", False, False)
     ])
 
-    script_ref("Acts 19:9-10")
-    script_verse("[9] But when divers were hardened, and believed not, but spake evil of that way before the multitude, he departed from them, and separated the disciples, disputing daily in the school of one Tyrannus.")
-    script_verse("[10] And this continued by the space of two years; so that all they which dwelt in Asia heard the word of the Lord Jesus, both Jews and Greeks.")
-    script_ref("Acts 20:31")
-    script_verse("[31] Therefore watch, and remember, that by the space of three years I ceased not to warn every one night and day with tears.")
+    script_ref("Numbers 27:17")
+    script_verse("[17] Which may go out before them, and which may go in before them, and which may lead them out, and which may bring them in; that the congregation of the LORD be not as sheep which have no shepherd.")
+    script_ref("Ezekiel 34:11")
+    script_verse("[11] For thus saith the Lord GOD; Behold, I, even I, will both search my sheep, and seek them out.")
     sp()
 
     p_body([
-        ("3. Daily Discipleship and Systematic Word Feeding: ", True, False),
-        ("The work of Christian ministry is not a weekend recreational activity; it is a daily, unceasing vocation. In Ephesus, Paul gathered the disciples and taught them ", False, False),
-        ("daily", True, False),
-        (" for the space of two and a half years in the school of Tyrannus (", False, False),
-        ("Acts 19:9-10", True, False),
-        ("), testifying in ", False, False),
-        ("Acts 20:31", True, False),
-        (" that for three years he warned every one night and day with tears. While a cell leader cannot physically meet with every disciple daily, they must implement a systematic plan ensuring that every individual under their care feeds upon the Word of God daily. Cell leaders must track the sermon series and audio teachings their flock listens to, following up consistently: inquiring what was learned, discussing doctrinal principles, and ensuring continuous spiritual intake.", False, False)
+        ("If your meeting venue is not full, it is because your soul winning is not on fire. When you see empty seats, it shows a lack of passion for souls.", False, False)
     ])
+
+    p_anecdote(
+        "When Wizkid planned a concert in London at the O2 Arena, they had to stretch it to three days because people filled the venue even when ticket prices increased. There are people out there—we just have to work and win souls!"
+    )
+
+    h3("2. Establish Them in the Local Church")
+
+    p_body([
+        ("Inculcate this into all workers: it is utterly irresponsible to just send disciples to church. You do not bring people to church; you come with your disciples to church. Their church attendance is part of your discipleship.", False, False)
+    ])
+
+    p_body([
+        ("It is irresponsible for a leader to come into the service, sit in front, while the people they are mentoring are seated far away somewhere else. You sit around the same area! Part of your work is to watch how they are studying, how they are praying. You are not here alone.", False, False)
+    ])
+
+    p_body([
+        ("It is an insult for your disciple to be in the service without a Bible. If church attendance is a continuation of discipleship, they know they are coming to service in continuation of what you are teaching them. Do not delegate that job to the pastors; you are their pastor. You sit together: watch if they are singing, watch if they are writing notes. It is called oversight (", False, False),
+        ("episkope", True, True),
+        (")—paying attention to behavior, paying attention to everything. Bad parenting results in an unruly society; bad pastoring results in careless Christians.", False, False)
+    ])
+
+    h3("3. Teach Them Daily")
+
+    p_body([
+        ("Do you have a plan on how your flock feeds on the Word of God daily? That does not mean you must see them physically every day—that is impossible—but do you have a plan for everyone under you to feed on God's Word daily? The work of ministry is not for weekends.", False, False)
+    ])
+
+    script_ref("Acts 20:31")
+    script_verse("[31] Therefore watch, and remember, that by the space of three years I ceased not to warn every one night and day with tears.")
+    script_ref("Acts 19:9-10")
+    script_verse("[9] But when divers were hardened, and believed not, but spake evil of that way before the multitude, he departed from them, and separated the disciples, disputing daily in the school of one Tyrannus.")
+    script_verse("[10] And this continued by the space of two years; so that all they which dwelt in Asia heard the word of the Lord Jesus, both Jews and Greeks.")
+    sp()
+
+    p_body([
+        ("Daily teaching! What is everyone listening to in your cell this week? Follow up: 'Have you listened to that series? Tell me what you learned.' Follow-up is not just asking, 'Hope you are not forgetting service on Sunday?' You do not merely invite disciples; you inform them and you come together.", False, False)
+    ])
+
+    h3("4. Minister to Their Needs and Know Their Details")
 
     script_ref("Acts 20:34-35")
     script_verse("[34] Yea, ye yourselves know, that these hands have ministered unto my necessities, and to them that were with me.")
@@ -599,41 +704,40 @@ def build_faithfulness_document(docx_paths, md_paths):
     sp()
 
     p_body([
-        ("4. Ministering to Practical Needs and Maintaining Diligent Pastoral Records: ", True, False),
-        ("Pastoral oversight encompasses both spiritual edification and practical care. Paul reminded the Ephesian elders that with his own hands he labored to minister to the necessities of those with him, supporting the weak (", False, False),
-        ("Acts 20:34-35", True, False),
-        ("). A shepherd must know the flock intimately. Every cell leader must maintain detailed, accurate pastoral records of everyone in their unit: their full legal names, dates of birth, residential addresses, occupations, and domestic circumstances. If a leader lacks the administrative discipline to maintain accurate biographical knowledge for twenty or fifty people, they fundamentally disqualify themselves from shepherding hundreds or thousands. Pastoral oversight requires deliberate, structured familiarity with every sheep.", False, False)
+        ("Do you know their names, their surnames, what they do, where they live? You must have those records: full names, dates of birth, occupations, where they live. If you cannot maintain that for twenty or fifty people, how will you oversee one thousand? That is pastoring; that is oversight.", False, False)
     ])
 
-    # -------------------------------------------------------------------------
-    # SECTION 13
-    # -------------------------------------------------------------------------
-    h2("Men of Purpose Are Busy People: Relentless Labor and Faithful Fulfillment")
+    # --- SECTION 15 ---
+    h2("Men of Purpose Are Busy People")
 
     p_body([
-        ("Pastoral ministry is a continuous, daily lifestyle. Even when a leader is not physically present, they are pastoring through prayer, communication, strategic planning, and spiritual vigilance. Operating as an effective leader requires intentional time management: carving out disciplined boundaries for personal communion with God, family responsibilities, vocational employment, physical health, and flock oversight by ruthlessly eliminating frivolous, unproductive activities.", False, False)
+        ("Pastoring is a daily walk. Even when you are not physically present, you are pastoring through prayer and oversight. You create time: for family, for yourself, for your work, for your business, for your health, for souls, for church, for leaders. You must cut off frivolous things. Why? Because men of purpose are busy people.", False, False)
     ])
 
     p_anecdote(
-        "Men of purpose are inherently busy people. When you observe leaders who accomplish monumental results in industry or ministry, their lives are characterized by high-velocity focus, decisive execution, and zero tolerance for idleness. One does not attain fulfillment in ministry through passive positive confessions while lounging in slothfulness. Fulfilling ministry demands diligent, relentless labor. Let your life be characterized by purpose. Stand as a dependable steward, wholly devoted to multiplying the investment of lives committed to your hands, until the Chief Shepherd appears."
+        "I was once in the office of one of Nigeria's billionaires. He discussed traveling to Paris and New York like someone traveling to Ikeja. Another time, he said, 'Let's go to Ilorin at 10:30 p.m.' We boarded his private jet, flew to Ilorin where he inspected a project, and within twenty minutes we flew back to Lagos. The driver who brought me was still waiting in the car park! He was that focused and busy."
     )
 
-    # -------------------------------------------------------------------------
-    # EXPORT FILES
-    # -------------------------------------------------------------------------
-    # Save Word DOCX
+    p_body([
+        ("People see others accomplishing great things and think they just sat down confessing. You do not confess fulfillment in ministry; you work—you are busy!", False, False)
+    ])
+
+    p_anecdote(
+        "A man of purpose is busy. Let us pray."
+    )
+
+    # --- EXPORT ---
     for docx_p in docx_paths:
         Path(docx_p).parent.mkdir(parents=True, exist_ok=True)
         doc.save(docx_p)
-        print(f"[+] Successfully saved Word docx to: {docx_p}")
+        print(f"[+] Saved Word docx to: {docx_p}")
 
-    # Save Markdown
     full_md = "\n".join(md_lines)
     for md_p in md_paths:
         Path(md_p).parent.mkdir(parents=True, exist_ok=True)
         with open(md_p, "w", encoding="utf-8") as f:
             f.write(full_md)
-        print(f"[+] Successfully saved Markdown to: {md_p}")
+        print(f"[+] Saved Markdown to: {md_p}")
 
 if __name__ == '__main__':
     base_dir = Path(r"c:\Users\Stephycopy\OneDrive\Desktop\Theos\theos")
@@ -649,9 +753,8 @@ if __name__ == '__main__':
         study_dir / "Cell_Leaders_Conference_Faithfulness_in_Ministry.md"
     ]
 
-    build_faithfulness_document(docx_files, md_files)
+    build_verbatim_document(docx_files, md_files)
 
-    # Count words
     doc = Document(docx_files[0])
     total_words = sum(len(p.text.split()) for p in doc.paragraphs)
-    print(f"[+] Document created. Total Word count = {total_words} words.")
+    print(f"[+] Verified: Total word count in Word document = {total_words} words.")
