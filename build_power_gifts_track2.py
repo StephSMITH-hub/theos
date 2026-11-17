@@ -534,11 +534,9 @@ def build_power_gifts_transcript(docx_paths, md_paths, raw_path=None):
             f.write(full_md)
         print(f"[+] Saved Markdown to: {md_p}")
 
-    if raw_path:
-        Path(raw_path).parent.mkdir(parents=True, exist_ok=True)
-        with open(raw_path, "w", encoding="utf-8") as f:
-            f.write(full_md)
-        print(f"[+] Saved Raw reference to: {raw_path}")
+    # Raw transcript is managed independently as verbatim oral audio transcript
+    if raw_path and not Path(raw_path).exists():
+        print(f"[!] Note: Verbatim raw transcript should be placed at: {raw_path}")
 
 if __name__ == '__main__':
     base_dir = Path(r"c:\Users\Stephycopy\OneDrive\Desktop\Theos\theos")
