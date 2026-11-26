@@ -385,7 +385,9 @@ Every update logged here is automatically synchronized directly to the GitHub re
   - `Workers in Training Convention Transcript/Raw/Workers in Training Convention 2026 – What to do with a new convert - Track 1_Raw.txt`
   - `build_workers_training_track1.py` (Master Python builder script)
   - `build_workers_training_track1_helpers.py` (Styling helpers)
+  - `Workers in Training Convention 2026 – What to do with a new convert - Track 1 (Structured & Clean).md` (Markdown format)
   - `CHAT_AND_UPDATES_LOG.md`
+- **Google Doc Export:** [Google Doc Link](https://docs.google.com/document/d/1PXCh64hAy_fKJxyFeUDtU6tcLJo491Tmd8XAM-V6IGk/edit) (ID: `1PXCh64hAy_fKJxyFeUDtU6tcLJo491Tmd8XAM-V6IGk`)
 - **Status:** Complete & Synced with GitHub
 
 
